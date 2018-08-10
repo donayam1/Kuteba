@@ -1,5 +1,5 @@
 ﻿body {
-    background-image:url(~/Contents/Images/Screenshot_2018-07-26-09-12-05.jpg);
+    background-image:url('../Images/Screenshot_2018-07-26-09-12-05.jpg');
     
   
     
@@ -16,8 +16,8 @@ header {
   border-bottom-color:aqua;
   background-attachment:scroll;
   background-color:cadetblue;
-  background-image:url(/Contents/Images/fifty.jpg);
-  border-image:url(/Contents/Images/border.jpg);
+  background-image:url('../Images/fifty.jpg');
+  border-image:url('../Images/border.jpg');
   text-align:center;
   
   font-weight:bolder;
@@ -51,8 +51,8 @@ border-width:20px;
 border-color:black;
 border-image-width:auto;
 border-style:groove;
-border-image:url(/Contents/Images/border.jpg);
-background-image:url(/Contents/Images/five_cent.jpg);
+border-image:url('../Images/border.jpg');
+background-image:url('../Images/five_cent.jpg');
 /*margin:20px;*/
 margin-top:250px;
 margin-left:1100px;
