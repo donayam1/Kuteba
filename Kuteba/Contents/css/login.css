@@ -1,10 +1,8 @@
 ﻿body {
     background-image:url('../Images/Screenshot_2018-07-26-09-12-05.jpg');
     /*comment*/
-  
-    
-
 }
+
 #logo {
 float:left;
 }
@@ -21,30 +19,31 @@ header {
   text-align:center;
   
   font-weight:bolder;
-  
-
 }
 .navi {
     float:right;
 }
+
 #Home {
 color:gold;
 background-color:black;
-
 }
 #SignUp {
 color:gold;
 background-color:black;
 }
+
 #Announcement {
 color:gold;
 background-color:black;
 }
+
 #AboutUs 
 {
 color:gold;
 background-color:black;
 }
+
 .login form {
 border:solid;
 border-width:20px;
@@ -63,6 +62,7 @@ border-right-color:yellow;
 border-radius:20px;
 
 }
+
 label {
 color:black;
 font-family:Constantia;
