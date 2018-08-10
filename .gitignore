@@ -150,7 +150,7 @@ publish/
 *.nupkg
 # The packages folder can be ignored because of Package Restore
 **/packages/*
-!**/packages/EntityFramework.6.1.3/
+#!**/packages/EntityFramework.6.1.3/
 
 
 
