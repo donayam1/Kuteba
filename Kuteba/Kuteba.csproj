@@ -138,6 +138,7 @@
     <Compile Include="ViewModel\UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contents\css\adminlayout.css" />
     <Content Include="Contents\css\announcement.css" />
     <Content Include="Contents\css\login.css" />
     <Content Include="Contents\css\Singup.css" />
