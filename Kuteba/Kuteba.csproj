@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contents\css\login.css" />
+    <Content Include="Contents\css\Singup.css" />
     <Content Include="Contents\Images\2018-07-26-09-17-07-628807408.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-14--327721400.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-18--1535791116.jpg" />
@@ -170,6 +171,7 @@
     </Content>
     <None Include="Project_Readme.html" />
     <Content Include="Views\Login\index.cshtml" />
+    <Content Include="Views\Login\SignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

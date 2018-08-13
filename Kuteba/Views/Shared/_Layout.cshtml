@@ -7,6 +7,28 @@
     <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><img src="home.gif" id="logo"></h1>
+            <h1>ቁጠባ</h1>
+            <nav class="navi">
+                @*<input value="Home" id="Home" type="button" />*@
+                @*<input value="Sign Up" type="button" id="SignUp" />*@
+                <a href="~/login/index">login</a>
+                <a href="~/login/signup">SignUp</a>
+                <input value="Announcement" type="button" id="Announcement" />
+                <input value="About Us" type="button" id="AboutUs" />
+
+            </nav>
+        </div>
+
+    </header>
+
   @RenderBody()
+
+    <footer>
+        <h2> Copyright © KUTEBA 2018</h2>
+    </footer>
+
 </body>
 </html>
