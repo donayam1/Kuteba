@@ -18,8 +18,8 @@ namespace BusinessLogic
 		}
 		public bool SignIn (User u)
 		{
-            var user = db.Users. 
-                 Where(u1 => u1.UserName == u.UserName && 
+            var user = db.Users.
+                 Where(u1 => u1.UserName == u1.UserName &&
                              u1.Password == u.Password).
                              FirstOrDefault();
             if (user == null)
