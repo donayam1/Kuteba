@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace Kuteba.Controllers
 {
-    [AllowAnonymous]
-    public class HomeController : Controller
+    
+    public class FinanceController : Controller
     {
-        // GET: Home
+        // GET: Finance
         public ActionResult Index()
         {
             return View();

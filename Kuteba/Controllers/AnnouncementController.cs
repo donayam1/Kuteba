@@ -7,9 +7,9 @@ using System.Web.Mvc;
 namespace Kuteba.Controllers
 {
     [AllowAnonymous]
-    public class HomeController : Controller
+    public class AnnouncementController : Controller
     {
-        // GET: Home
+        // GET: Announcement
         public ActionResult Index()
         {
             return View();
