@@ -12,6 +12,7 @@ using Databse;
 
 namespace LoginVerification.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         ILoginService loginService;

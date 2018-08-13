@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Kuteba.Controllers
 {
+    [AllowAnonymous]
     public class AnnouncementController : Controller
     {
         // GET: Announcement

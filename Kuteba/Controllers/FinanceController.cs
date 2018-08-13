@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Kuteba.Controllers
 {
+    
     public class FinanceController : Controller
     {
         // GET: Finance
