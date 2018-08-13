@@ -52,6 +52,14 @@ namespace LoginVerification.Controllers
                 return View();
             }
         }
+
+        [HttpGet]
+        public ActionResult SignUp()
+        {
+            return View();
+        }
+
         
+           
     }
 }
