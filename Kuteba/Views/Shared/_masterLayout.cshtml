@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_masterLayout</title>
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
+    @RenderSection("Styles",false)
+</head>
+<body>
+    <div> 
+        <h1 class="logo"><img src="home.gif" id="logo"></h1>
+        <h1>ቁጠባ</h1>
+    </div>
+
+    @RenderBody()
+
+
+    <footer>
+        <h2> Copyright © KUTEBA 2018</h2>
+    </footer>
+
+</body>
+</html>

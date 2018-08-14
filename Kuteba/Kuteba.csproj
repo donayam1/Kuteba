@@ -179,6 +179,7 @@
     <Content Include="Views\Announcement\Index.cshtml" />
     <Content Include="Views\Shared\_LogedInUserLayout.cshtml" />
     <Content Include="Views\Finance\Index.cshtml" />
+    <Content Include="Views\Shared\_masterLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
