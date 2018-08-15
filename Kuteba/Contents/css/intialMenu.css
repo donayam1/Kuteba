@@ -1,2 +1,11 @@
 ﻿body {
 }
+.container { 
+    background-color: #7ca334;
+    color: white;
+    margin-left:150px;
+    float:right;
+}
+.navi {  background-color: #7ca334;
+    color: white;
+}

@@ -150,6 +150,7 @@
     <Content Include="Contents\Images\border.jpg" />
     <Content Include="Contents\Images\fifty.jpg" />
     <Content Include="Contents\Images\five_cent.jpg" />
+    <Content Include="Contents\Images\quteba.PNG" />
     <Content Include="Contents\Images\Screenshot_2018-07-26-09-12-05.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
