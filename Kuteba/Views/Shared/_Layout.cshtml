@@ -4,30 +4,26 @@
 
 
 
- <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+ @*<link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />*@
 
 
 
 @section Styles{
-<link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
+<link type="text/css" rel="stylesheet" href="~/Contents/css/intialMenu.css" />
+  @RenderSection("initalCSS",false)
  }
 
-    <header>
-        <div class="container">
-            @*<h1 class="logo"><img src="home.gif" id="logo"></h1>
-            <h1>ቁጠባ</h1>*@
-            <nav class="navi">
-                @*<input value="Home" id="Home" type="button" />*@
-                @*<input value="Sign Up" type="button" id="SignUp" />*@
-                <a href="~/login/index">login</a>
-                <a href="~/login/signup">SignUp</a>
-                <a href="~/Announcement/index">Announcement</a>                
-                @*<input value="Announcement" type="button" id="Announcement" />*@
-                <input value="About Us" type="button" id="AboutUs" />
 
-            </nav>
-        </div>       
-    </header>
+<div class="container">
+
+    <nav class="navi">
+        <a href="~/login/index">login</a>
+        <a href="~/login/signup">SignUp</a>
+        <a href="~/Announcement/index">Announcement</a>                        
+        <input value="About Us" type="button" id="AboutUs" />
+    </nav>
+</div>     
+  
     @RenderSection("BodyPart", false)
 
 

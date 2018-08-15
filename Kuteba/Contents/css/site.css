@@ -1,6 +1,9 @@
-﻿
+﻿body {
+    /*background-image:url('../Images/Screenshot_2018-07-26-09-12-05.jpg');*/
+    /*comment*/
+}
 
-/*#logo {
+#logo {
 float:left;
 }
 
@@ -19,9 +22,9 @@ header {
 }
 .navi {
     float:right;
-}*/
+}
 
-/*#Home {
+#Home {
 color:gold;
 background-color:black;
 }
@@ -33,40 +36,23 @@ background-color:black;
 #Announcement {
 color:gold;
 background-color:black;
-}*/
+}
 
-/*#AboutUs 
+#AboutUs 
 {
 color:gold;
 background-color:black;
-}*/
-
-.login form {
-border:solid;
-border-width:20px;
-border-color:black;
-border-image-width:auto;
-border-style:groove;
-border-image:url('../Images/border.jpg');
-background-image:url('../Images/five_cent.jpg');
-/*margin:20px;*/
-margin-top:250px;
-margin-left:1100px;
-
-
-border-left-color:black;
-border-right-color:yellow;
-border-radius:20px;
-
 }
 
-/*label {
+
+
+label {
 color:black;
 font-family:Constantia;
 font-style:oblique;
 font-weight:bold;
-}*/
-/*footer h2 {
+}
+footer h2 {
     background-color:black;
     color:gold;
     clear:both;
@@ -80,9 +66,5 @@ color:black;
 font-weight:bold;
 
 
-}*/
-#login {
-float:right;
-margin:20px;
 }
 

@@ -140,8 +140,10 @@
   <ItemGroup>
     <Content Include="Contents\css\adminlayout.css" />
     <Content Include="Contents\css\announcement.css" />
+    <Content Include="Contents\css\intialMenu.css" />
     <Content Include="Contents\css\login.css" />
     <Content Include="Contents\css\Signup.css" />
+    <Content Include="Contents\css\site.css" />
     <Content Include="Contents\Images\2018-07-26-09-17-07-628807408.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-14--327721400.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-18--1535791116.jpg" />
