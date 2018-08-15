@@ -11,6 +11,10 @@ header {
    background-repeat:no-repeat;
 
 }
+footer {
+    background-color:#7ca334;
+    text-align:center;
+}
 .front{
     width:35%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
