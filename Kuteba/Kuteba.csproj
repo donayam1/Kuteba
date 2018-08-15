@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AnnouncementAdminController.cs" />
     <Compile Include="Controllers\AnnouncementController.cs" />
     <Compile Include="Controllers\FinanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -182,6 +183,8 @@
     <Content Include="Views\Shared\_LogedInUserLayout.cshtml" />
     <Content Include="Views\Finance\Index.cshtml" />
     <Content Include="Views\Shared\_masterLayout.cshtml" />
+    <Content Include="Views\AnnouncementAdmin\List.cshtml" />
+    <Content Include="Views\AnnouncementAdmin\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
