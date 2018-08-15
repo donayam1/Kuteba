@@ -1,16 +1,12 @@
 ﻿@{
-    Layout = "/views/shared/_masterLayout.cshtml";
+    Layout = "~/views/shared/_masterLayout.cshtml";
 }
 
-<!DOCTYPE html>
+@section Styles{
+<link type="text/css" rel="stylesheet" href="~/Contents/css/adminlayout.css" />
+    }
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/adminlayout.css" />
-    <title></title>
-</head>
-<body>
+
     <div>
 
         
@@ -54,8 +50,6 @@
                 </li>
             </ul>
         
-        
-        @RenderBody()
     </div>
-</body>
-</html>
+
+@RenderSection("BodyPart",false)

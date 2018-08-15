@@ -1,28 +1,17 @@
-<<<<<<< HEAD
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuteba</title>
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
-</head>
-<body>
-=======
-﻿@{
+﻿﻿@{
     Layout = "/views/shared/_masterLayout.cshtml";
 }
 
-<!DOCTYPE html>
+
+
+ <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+
 
 
 @section Styles{
 <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
  }
 
-
->>>>>>> a962b404cd8ab31026fcdb22c7f3648d3e1eabee
     <header>
         <div class="container">
             @*<h1 class="logo"><img src="home.gif" id="logo"></h1>
@@ -37,9 +26,9 @@
                 <input value="About Us" type="button" id="AboutUs" />
 
             </nav>
-        </div>
-        @RenderBody();
+        </div>       
     </header>
+    @RenderSection("BodyPart", false)
 
 
 
