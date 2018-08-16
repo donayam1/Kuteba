@@ -1,5 +1,5 @@
 ﻿body{
-	  background-image:url("Background.png");
+	  /*background-image:url("Background.png");*/
 }
 .header1{
 	font:bold 30px Century Gothic;
@@ -9,7 +9,8 @@
 }
 .signupform{
  
-	 float:left;
+	 /*float:left;*/
+     width:550px;
 	
 }
 .signup div label{
@@ -17,8 +18,8 @@
     float:left;
 }
 .fset {
-	float:right;
-	background-color:#e0b1b19e;
+	/*float:right;*/
+	background-color:#e0b1b1;
 	-webkit-border-radius: 25px;
 	
 }
