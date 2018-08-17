@@ -4,5 +4,41 @@
     Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
 }
 
-<h2>Edit</h2>
+@section initalCSS{
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+}
+@section BodyPart{
+<form class="signupform">
+    <fieldset class="fset">
+        <div class="one">
+            <p>
+                <label for="title">Title:</label>
+                <input id="username" Name="Title" type="text"
+                       placeholder="User name" required>
+            </p>
+
+            <p>
+                <label for="picture">Picture:</label>
+                <input id="password" name="Picture" type="file"
+                       placeholder="picture" required>
+            </p>
+
+         
+            <p>
+                <label for="discriptiion">Discription:</label>
+                <input id="saving" name="discription" type="text"
+                       placeholder="Details for describing" required>
+            </p>
+
+        </div>
+        <button class="btn" id="Signbutton">ይመዝገቡ</button>
+
+
+    </fieldset>
+
+
+
+</form>
+
+ }
 

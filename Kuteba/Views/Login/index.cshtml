@@ -5,28 +5,37 @@
 }
 @section initalCSS{
     <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/bootstrap.min.css" />
+    @*@RenderSection("Script",false)*@
     }
 
 
 @section BodyPart{
-<div class="loginform">
-    <form action="~/login/index" method="post">
-        
-            
-                Login to your account<hr />
-                <br />
-                <label>User Name:</label>
-                <input id="userName" type="text" />
-                <br />
-                <br />
-                <label> Password:  </label>
-                <input id="password" type="password" />
-                <br />
-                <input id="log" value="Login" type="button" />
-                <br />
-           
-        
-    </form>
-</div>
+<div id="container2">
 
+    <div id="mainbody">
+
+    </div>
+    <div class="loginform">
+        <form action="~/login/index" method="post">
+
+
+            Login to your account<hr />
+            <br />
+            <label>User Name:</label>
+            <input id="userName" type="text" />
+            <br />
+            <br />
+            <label> Password:  </label>
+            <input id="password" type="password" />
+            <br />
+            <input id="log" value="Login" type="button" />
+            <br />
+
+
+        </form>
+    </div>
+</div>
+  
     }
