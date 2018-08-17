@@ -44,7 +44,10 @@
 .announcement-body {
     padding: 2px 16px;
     width:100px;
+<<<<<<< HEAD
     display:inline-block;
+=======
+>>>>>>> 765faa5cdf46949cdb626eb073407ede425ee21f
     height:100px;
 }
 

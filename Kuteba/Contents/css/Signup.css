@@ -1,7 +1,32 @@
+<<<<<<< HEAD
 ﻿
 
 .fset {
 	background-color:#5f6b47;
+=======
+﻿body{
+	  /*background-image:url("Background.png");*/
+}
+.header1{
+	font:bold 30px Century Gothic;
+	color:#5c5c8e;
+	text-align:left;
+	text-shadow:rgb(125,125,125) -3px 3px 3px;
+}
+.signupform{
+ 
+	 /*float:left;*/
+     width:550px;
+	
+}
+.signup div label{
+    width:30%;
+    float:left;
+}
+.fset {
+	/*float:right;*/
+	background-color:#e0b1b1;
+>>>>>>> 765faa5cdf46949cdb626eb073407ede425ee21f
 	-webkit-border-radius: 25px;
      width:440px;
      height:auto;
