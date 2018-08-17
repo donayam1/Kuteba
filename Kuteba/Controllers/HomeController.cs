@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Kuteba.Controllers
 {
-    [AllowAnonymous]
+    [Authorize]
     public class HomeController : Controller
     {
         // GET: Home

@@ -1,11 +1,17 @@
 ﻿body {
 }
 .container { 
-    background-color: #7ca334;
+    background-color: white;
     color: white;
     margin-left:150px;
     float:right;
 }
-.navi {  background-color: #7ca334;
-    color: white;
+.navi a {  
+    background-color:#7ca334;
+    color:#363cac;
+}
+a {
+    border:groove;
+    border-radius: 25px;
+    border-color:white;
 }
