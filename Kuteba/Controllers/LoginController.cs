@@ -8,7 +8,8 @@ using System.IO;
 using System.Text;
 using Domain;
 using BusinessLogic;
-using Databse;
+using Database;
+using System.Web.Security;
 
 namespace LoginVerification.Controllers
 {
@@ -22,7 +23,7 @@ namespace LoginVerification.Controllers
         }
 
         [HttpGet]
-        public ActionResult index()
+        public ActionResult index(String ReturnUrl)
         {
             return View();
         }
@@ -42,9 +43,11 @@ namespace LoginVerification.Controllers
                 if (res)
                 {
                     //Cookie forms authentication
-                    return Redirect("~/home/index");// View("You have successfully logged in ", user);
+                    FormsAuthentication.SetAuthCookie(u.UserName, true);
+                    return Redirect(Url.Action("index", "home"));// View("You have successfully logged in ", user);
                 }
                 else {
+                    ModelState.AddModelError("", "Unknowen user name and passwrod combination");
                     return View("");
                 }
             }
@@ -57,10 +60,17 @@ namespace LoginVerification.Controllers
         [HttpGet]
         public ActionResult SignUp()
         {
+            
             return View();
         }
 
-        
-           
+
+        [HttpGet]
+        public ActionResult signout()
+        {
+            FormsAuthentication.SignOut();
+            return Redirect(Url.Action("index", "login"));
+        }
+
     }
 }

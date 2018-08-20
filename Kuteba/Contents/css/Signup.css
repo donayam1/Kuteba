@@ -1,54 +1,37 @@
-﻿body{
-	  background-image:url("Background.png");
-}
-.header1{
-	font:bold 30px Century Gothic;
-	color:#5c5c8e;
-	text-align:left;
-	text-shadow:rgb(125,125,125) -3px 3px 3px;
-}
-.signupform{
- 
-	 float:left;
-	
-}
-.signup div label{
-    width:30%;
-    float:left;
-}
+
+﻿
+
 .fset {
-	float:right;
-	background-color:#e0b1b19e;
+	background-color:#5f6b47;
+
 	-webkit-border-radius: 25px;
+     width:440px;
+     height:auto;
 	
 }
 .one {
-	 margin: 2px 2px 2px 5px;
 	 display:block;
-	 width:400px;
+	 width:480px;
 	 float:left;
 }
 .one p{
-	width:400px;
-	height:50px;
+	width:auto;
+	height:35px;
 }
 
-
-
-
 .one p label{
-    width: 70px;
-	height:50px;
+    width: 20%;
+    font-size:14px;
     float:left;
 	border-bottom :20px;
 
 }
 
+
  #username ,#password,#emailaddress,#phone,#dob,#bond,#saving {
-	float:right;
 	width:300px;
 	height:25px;
-	margin: 2px 2px 2px 5px;
+	margin: 0px 2px 0px 0px;
 }
 
 

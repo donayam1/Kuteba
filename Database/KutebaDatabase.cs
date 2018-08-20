@@ -5,12 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain;
 using System.Data.Entity;
+using Database;
 
-namespace Databse
+namespace Database
 {
+
     public class KutebaDatabase:DbContext
     {
-        public KutebaDatabase() : base("name=KutebaDB") { }
+        
+        public KutebaDatabase() : base("name=KutebaDB") {
+            System.Data.Entity.Database.SetInitializer<KutebaDatabase>(new DBInitializer());
+        }
         public DbSet<User> Users { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Previlage> Prevlages { get; set; }
