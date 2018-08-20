@@ -1,11 +1,11 @@
 
 ﻿
 
-.fset {
-	background-color:#5f6b47;
-
+fset{
+	background-color:deepskyblue;
+    display:block;
 	-webkit-border-radius: 25px;
-     width:440px;
+     width:500px;
      height:auto;
 	
 }
@@ -41,6 +41,8 @@
     margin-right:0%;
     margin-left:70%;
     margin-bottom:auto;
+    width:75px;
+    height:25px;
     color:white;
 	-webkit-border-radius:25px;
 

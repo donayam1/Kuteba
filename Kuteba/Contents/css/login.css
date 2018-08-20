@@ -10,12 +10,12 @@
 }
 
 #mainbody{
-	width:850px;
-	height:830px;
+	width:740px;
+	height:700px;
 	padding:0%;
 	margin:0%;
     outline:1px blue;
-	/*background-color:dodgerblue;*/
+    /*background-color:dodgerblue;*/
 	float:left;
 }
 
