@@ -152,6 +152,11 @@
     <Content Include="Contents\Images\border.jpg" />
     <Content Include="Contents\Images\fifty.jpg" />
     <Content Include="Contents\Images\five_cent.jpg" />
+<<<<<<< HEAD
+    <Content Include="Contents\Images\img_someone.jpg" />
+    <Content Include="Contents\Images\quteba.PNG" />
+=======
+>>>>>>> f4e1b67e0167fb82f74ec0dde9fa52118cedc01b
     <Content Include="Contents\Images\Screenshot_2018-07-26-09-12-05.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
