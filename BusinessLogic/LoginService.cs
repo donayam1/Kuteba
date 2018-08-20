@@ -25,7 +25,12 @@ namespace BusinessLogic
             if (user == null)
                 return false;
             else
-                return true;
+            {
+                if (user.isPendding)
+                    return false;
+                else
+                    return true;
+            }
 		}
 	}
 }

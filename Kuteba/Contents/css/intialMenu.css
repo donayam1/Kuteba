@@ -1,12 +1,12 @@
 ﻿
-.container { 
+.container1 { 
     background-color: white;
-    color: white;
+    /*color: white;*/
     margin-left:150px;
-    float:right;*/
+    float:right;
     padding-top:0;
     margin-top:0;
-    height:130px;
+    height:60px;
 	width:100%;
 	
 }
@@ -18,7 +18,7 @@
 .navi ul
 {
 	margin:0;
-    width:100%;
+    width:96%;
     height:30px;
 }
 .navi li{
