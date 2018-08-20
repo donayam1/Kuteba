@@ -1,8 +1,58 @@
 ﻿
 @{
-    ViewBag.Title = "List";
-    Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
+    Layout = null;
 }
+<!doctype html>
+<head>
+</head>
+<link type="text/css" rel="stylesheet" href="~/Contents/css/anouncemnetList.css" />
+<html>
+<body>
+    <table border="1">
+        <tr>
+            <th>Number</th>
 
-<h2>List</h2>
+            <th>Name List</th>
 
+            <th>Amount of save</th>
+
+            <th class="edit">Edit</th>
+
+        </tr>
+
+        <tr>
+
+            <td>1</td>
+
+            <td>Elias kibret</td>
+
+            <td>100 birr</td>
+            <td class="edit"><button type="text">Edit</button>
+            <button type="text">Delete</button></td>
+        </tr>
+
+        <tr>
+
+            <td>2</td>
+
+            <td>Donayam Nega</td>
+
+            <td>500 birr</td>
+            <td class="edit"><button type="text">Edit</button>
+                <button type="text">Delete</button></td>
+        </tr>
+        <tr>
+
+            <td>3</td>
+
+            <td>Mahlet </td>
+
+            <td>200 birr</td>
+            <td class="edit"><button type="text">Edit</button>
+                <button type="text">Delete</button></td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
