@@ -1,20 +1,26 @@
-﻿body {background-color:white;
+﻿body {
+      display:inline-block;
+      width:100%;
+      height:1000px;
 }
+/*.container{
+    display:block;
+}*/
 header {
     background-color:#7ca334;
     color: white;
     width:100%;
     height:110px;
     font-size:50px;
+    background-image:url('../Images/quteba.png');
     border:groove;
-   background-image:url('../Images/quteba.PNG');
+    margin-bottom:0;
    background-repeat:no-repeat;
 
 }
-footer {
-    background-color:#7ca334;
-    text-align:center;
-}
+
+
+
 .front{
     width:35%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,7 +28,16 @@ footer {
     margin-left:170px;
 }
 
-p {
+.front p {
     font-size:25px;
     font-style:italic;
+    text-align:center;
+}
+#footer{
+	height:40px;
+	margin-bottom:5px;
+	text-align:center;
+	font:14px Tahoma;
+	background-color:#055a36;
+    clear:both;
 }
