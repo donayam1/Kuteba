@@ -1,54 +1,48 @@
-﻿#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    padding: 30px 30px 30px 220px;
-}
-
-/* The Modal (background) */
-.announcement {
+﻿.announcement {
+    border-radius:10px;
     display: block; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    position: relative; /* Stay in place */
+    padding:10px;
+    width: 100%; 
+    height: 100%; 
     overflow: auto; /* Enable scroll if needed     */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+    }
 
-/* Modal Content */
+/* Content */
 .announcement-content {
-    position: fixed;
+    position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 80%;
+    width:400px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   
+    font-size:1.17em;
 }
 
 .announcement-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #7ca334;
     color: white;
 }
-#TA{
-    width:100%;
-    border-spacing: 15px
-}
-.items{
-    font-size: 1.17em;
-}
-
+#myDate{
+    padding-left:200px;
+    opacity: 0.5;
+    }
 .announcement-body {
-    padding: 2px 16px;
-    width:100px;
-    height:100px;
+    padding:0px;
+    width:400px;
+    height:400px;
+    margin:auto;
+}
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+    padding:inherit;
 }
 
 .announcement-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
+    padding:2px 16px;
+    background-color: #7ca334;
     color: white;
 }
