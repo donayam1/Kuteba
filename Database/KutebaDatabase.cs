@@ -20,7 +20,9 @@ namespace Database
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Previlage> Prevlages { get; set; }
         public DbSet<Group> Groups { get; set; }
+        public DbSet<Announcemnets> Announcemnets { get; set; }
         public DbSet<UserGroup> UserGroups { get; set; }
         public DbSet<GroupPrevilage> GroupPrevilages { get; set; }
+        public DbSet<See> See { get; set; }
     }
 }
