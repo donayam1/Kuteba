@@ -43,13 +43,13 @@ h2 {
     font-size: 15px;
     width:80px;
     border-radius: 25px;
-    background-color:#363cac;
+    background-color:#7ca334;
    -webkit-transition-duration: 0.4s; /* Safari */
    transition-duration: 0.4s;
 }
 
 #Register:hover {
-    background-color:#7ca334; 
+    background-color:ghostwhite; 
     color:black;
 
 }
