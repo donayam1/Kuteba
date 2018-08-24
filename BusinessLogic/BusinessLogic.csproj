@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeManager.cs" />
+    <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IListUserService.cs" />
     <Compile Include="ISignupService.cs" />
     <Compile Include="ListUserService.cs" />
