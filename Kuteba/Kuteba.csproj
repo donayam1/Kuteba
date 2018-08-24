@@ -129,6 +129,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AnnouncementAdminController.cs" />
     <Compile Include="Controllers\AnnouncementController.cs" />
+    <Compile Include="Controllers\EmployeesListController.cs" />
     <Compile Include="Controllers\FinanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -142,6 +143,7 @@
     <Content Include="Contents\css\adminlayout.css" />
     <Content Include="Contents\css\announcement.css" />
     <Content Include="Contents\css\anouncemnetList.css" />
+    <Content Include="Contents\css\EmployeesList.css" />
     <Content Include="Contents\css\intialMenu.css" />
     <Content Include="Contents\css\login.css" />
     <Content Include="Contents\css\Signup.css" />
@@ -149,12 +151,15 @@
     <Content Include="Contents\Images\2018-07-26-09-17-07-628807408.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-14--327721400.jpg" />
     <Content Include="Contents\Images\2018-07-26-09-17-18--1535791116.jpg" />
+    <Content Include="Contents\Images\50cent.jpg" />
     <Content Include="Contents\Images\border.jpg" />
     <Content Include="Contents\Images\fifty.jpg" />
     <Content Include="Contents\Images\five_cent.jpg" />
+    <Content Include="Contents\Images\heart.jpg" />
     <Content Include="Contents\Images\img_someone.jpg" />
     <Content Include="Contents\Images\quteba.PNG" />
     <Content Include="Contents\Images\Screenshot_2018-07-26-09-12-05.jpg" />
+    <Content Include="Contents\Images\wall.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -188,6 +193,7 @@
     <Content Include="Views\Shared\_masterLayout.cshtml" />
     <Content Include="Views\AnnouncementAdmin\Edit.cshtml" />
     <Content Include="Views\AnnouncementAdmin\List.cshtml" />
+    <Content Include="Views\EmployeesList\EmployeesList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
