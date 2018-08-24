@@ -1,0 +1,83 @@
+﻿body {
+}
+.front {
+    width: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    margin-left: 170px;
+}
+
+
+
+label {
+display:inline;
+width:250px
+}
+.front p {
+    font-size: 25px;
+    font-style: italic;
+    margin-top:5px;
+    margin-left:2px;
+}
+
+#set {
+       margin:150px;
+      background-color: #7ca334;
+      text-align:center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:white;
+}
+
+
+.form1 p {
+    margin-top:15px;
+    width: auto;
+    height: 35px;
+}
+
+.form2 {
+    width: auto;
+    height: 100px;
+    float:left;
+}
+.form3 {
+    width: auto;
+    height: 100px;
+}
+    .form3 label {
+    display:inline-block;
+    }
+.form4 {
+    float:left;
+    width: auto;
+    height: 100px;
+}
+    .form4 input {
+    width:250px;
+    }
+    .form4 label {
+    display:inline-block;
+    }
+
+fieldset:hover{
+color:white;
+background-color:#7ca334;
+}
+/*#footer {
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    font: 14px Tahoma;
+    background-color: #055a36;
+    clear: both;
+}*/
+#save{
+    float: right;
+    background-color:orange;
+    width:100px;
+    margin-right:20px;
+    margin-left: 70%;
+    margin-bottom: auto;
+    color: white;
+    -webkit-border-radius: 25px;
+}

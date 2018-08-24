@@ -11,6 +11,8 @@
     <title>_masterLayout</title>
     @*<link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />*@
     @*<link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />*@
+    @*<link type="text/css" rel="stylesheet" href="~/Contents/css/announcement.css" />*@
+
     <link type="text/css" rel="stylesheet" href="~/Contents/css/site.css" />
     @RenderSection("Styles",false)
 </head>
@@ -19,25 +21,14 @@
         <div class="front">
             Quteba<br /><p> Financial Solutions</p>
         </div>
-       
-
     </header>
-    <div class="container">
-        @RenderBody()
-       
-        <div id="footer">
 
-            <p>Copyright &copy:2018</p>
-
-        </div>
-    </div>
-
-    
+    @RenderBody()
 
 
-    @*<footer>
+    <footer>
         <h2> Copyright © KUTEBA 2018</h2>
-    </footer>*@
-   
+    </footer>
+
 </body>
 </html>

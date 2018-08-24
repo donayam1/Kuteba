@@ -1,0 +1,55 @@
+﻿body {
+    background-color: white;
+}
+h2 {
+    margin-top:150px;
+    background-color:#7ca334;
+    text-align:center;
+}
+.addform {
+    background-color:white;
+    border:groove;
+    border-color:black;
+    color:black;
+    font-family:'Comic Sans MS';
+    margin-top:50px;
+    margin-left:300px;
+    align-content:center;
+    padding:10px;
+    height:250px;
+    width:400px;
+}
+#EmployeeName {
+   padding:4px;
+   margin:1px;
+   margin-left:5.5px;
+
+}
+#IDnumber {
+    padding: 4px;
+    margin:5px;
+    margin-left: 17.5px;
+}
+#dob {
+    padding: 4px;
+    margin:5px;
+    margin-left: 17.5px;
+}
+#Register {
+    margin:25px;
+    height:30px;
+    color:black;
+    float: right;
+    font-size: 15px;
+    width:80px;
+    border-radius: 25px;
+    background-color:#7ca334;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+}
+
+#Register:hover {
+    background-color:ghostwhite; 
+    color:black;
+
+}

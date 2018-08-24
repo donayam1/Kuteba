@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
+}
+@section initalCSS{
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/addemployeeform.css" />
+}
+@section BodyPart{
+<h2>New Employee form</h2>
+
+<div class="addform">
+    Enter the required information<hr />
+    <br />
+    <label>Employee Name:</label>
+    <input id="EmployeeName" type="text" />
+    <br />
+    <br />
+    <label> ID number:  </label>
+    <input id="IDnumber" type="text" />
+    <br />
+    <label> Birth Date:  </label>
+    <input id="dob" type="date" />
+    <br />
+    <input id="Register" value="Add" type="button" />
+    <br />
+
+</div>
+    }

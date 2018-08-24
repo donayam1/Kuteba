@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuteba", "Kuteba\Kuteba.csproj", "{796B5D62-609E-4929-BBB6-30BB42789DDC}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{328CF296-27A4-4947-A52E-00BA69340986}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{942AB0D5-497A-4D1E-8BA3-EFB94430F74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{48FFE4BC-6CE9-433A-9B68-46FAE7F6DEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{942AB0D5-497A-4D1E-8BA3-EFB94430F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942AB0D5-497A-4D1E-8BA3-EFB94430F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942AB0D5-497A-4D1E-8BA3-EFB94430F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FFE4BC-6CE9-433A-9B68-46FAE7F6DEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FFE4BC-6CE9-433A-9B68-46FAE7F6DEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FFE4BC-6CE9-433A-9B68-46FAE7F6DEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FFE4BC-6CE9-433A-9B68-46FAE7F6DEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

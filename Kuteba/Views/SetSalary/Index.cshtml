@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
+}
+
+<h2>Index</h2>
+@section initalCSS{
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/setSalaryform.css" />
+}
+@section BodyPart{
+   
+    <h3 id="set">Set Employ Salary</h3>
+    <div class=" salarySet">
+        <form>
+            <fieldset class="form1">
+                <p>
+                    <label>Select Employe:</label>
+                    <input name="employe" type="text" list="employes" placeholder="select your employe" />
+                    <datalist id="employes">
+                        <option>employe 1</option>
+                        <option>employe 2</option>
+                        <option>employe 3</option>
+                    </datalist><br />
+                </p>
+            </fieldset>
+
+            <fieldset class="form2">
+                <p>
+                    <label>Picture:</label>
+                    <input name="picture" type="file" /><br />
+                </p>
+
+
+
+
+            </fieldset>
+            <fieldset class=" form3">
+                <p>
+                    <label>id:</label>
+                    <input name="id" id="id" type="text" placeholder="Enter the Id" />
+                    <br />
+                </p>
+                <p>
+                    <label>name:</label>
+                    <input name="name" id="name" type="text" placeholder="Enter the user name" />
+                    <br />
+                </p>
+            </fieldset>
+            <br />
+            <fieldset class=" form4">
+                <p>
+                    <label>New Salary:</label>
+                    <input name="new salary" type="number" placeholder="Enter the amount" />
+                    <br />
+                </p>
+                <p>
+                    <label>Activation date:</label>
+                    <input name="actDate" type="date" />
+                    <br />
+                </p>
+            </fieldset>
+            <br /><br />
+
+            <p>
+                <input name="save" type="button" id="save" value="save" />
+            </p>
+
+        </form>
+
+    </div>
+    <br />
+    <div id="footer">
+
+        <p>Copyright ©:2018</p>
+
+    </div>
+
+
+    }
