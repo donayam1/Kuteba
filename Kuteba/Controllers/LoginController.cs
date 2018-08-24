@@ -66,7 +66,7 @@ namespace LoginVerification.Controllers
         }
 
         [HttpPost]
-        public ActionResult SignUp(UserViewModel_Signup usr)
+        public ActionResult SignUp(UserViewModelSignup usr)
         {
             if (ModelState.IsValid)
             {
@@ -75,7 +75,8 @@ namespace LoginVerification.Controllers
             }
             else
             {
-                return View();
+                ModelState.AddModelError("", "Already registered user or invalid data entry. Try again.");
+                return View("");
             }
         }
 
