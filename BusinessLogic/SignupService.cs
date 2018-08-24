@@ -11,18 +11,21 @@ namespace BusinessLogic
 {
     public class SignupService : ISignupService
     {
-        User usr;
+        KutebaDatabase kdb;
 
-        public SignupService(User u)
+        public SignupService(KutebaDatabase db)
         {
-            usr = u;
+            kdb = db;
         }
 
-        public User _signup(UserViewModel_Signup u)
+        public User Signup(UserViewModel_Signup u)
         {
+            User usr = new User();
             usr.UserName = u.Username;
             usr.Password = u.password;
             usr.isPendding = true;
+
+            kdb.Users.Add(usr);
             return usr;
         }
     }

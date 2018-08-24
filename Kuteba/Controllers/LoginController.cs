@@ -10,6 +10,7 @@ using Domain;
 using BusinessLogic;
 using Database;
 using System.Web.Security;
+using ViewModels;
 
 namespace LoginVerification.Controllers
 {
@@ -17,9 +18,11 @@ namespace LoginVerification.Controllers
     public class LoginController : Controller
     {
         ILoginService loginService;
+        ISignupService signupService;
         public LoginController() {
             KutebaDatabase db = new KutebaDatabase();
             loginService = new LoginService(db);
+            signupService = new SignupService(db);
         }
 
         [HttpGet]
@@ -58,10 +61,22 @@ namespace LoginVerification.Controllers
         }
 
         [HttpGet]
-        public ActionResult SignUp()
-        {
-            
+        public ActionResult SignUp() {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult SignUp(UserViewModel_Signup usr)
+        {
+            if (ModelState.IsValid)
+            {
+                User u = signupService.Signup(usr);
+                return Redirect(Url.Action("index", "home"));
+            }
+            else
+            {
+                return View();
+            }
         }
 
 
