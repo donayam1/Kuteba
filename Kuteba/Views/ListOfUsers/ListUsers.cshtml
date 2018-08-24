@@ -1,0 +1,48 @@
+﻿@using Domain
+@using BusinessLogic 
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListUsers</title>
+</head>
+<body>
+    <form class="form">
+        <table>
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Employee ID</th>
+                    <th>####</th>
+                    
+                </tr>
+            </thead>
+            <tbody class="table">
+                @{
+                foreach (User v in Model)
+                {
+                    <tr>
+                        <td>
+                            @v.employe.Name
+                        </td>
+                        <td>
+                            @v.employe.EmployeeId
+                        </td>
+                        <td>
+                            @v.isPendding
+                        </td>
+                    </tr>
+                }
+                }
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
