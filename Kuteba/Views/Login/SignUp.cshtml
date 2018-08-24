@@ -11,53 +11,53 @@
 @section BodyPart{
 
  
-    <form>
+    <form action="@Url.Action("signup","login")">
         <fieldset class="fset">
             <div class="one">
                 <p>
-                    <label for="username">ስም:</label>
-                    <input id="username" Name="username" type="text"
-                           placeholder="User name" required>
+                    <label for="employeeID">መታወቅያ ቁጥር :</label>
+                    <input id="employeeID" Name="employeeID" type="text"
+                           placeholder="Id" required>
                 </p>
 
                 <p>
                     <label for="password">ሚስጥር-ቁጥር:</label>
-                    <input id="password" name="Password" type="text"
+                    <input id="password" name="password" type="text"
                            placeholder="password" required>
                 </p>
 
                 <p>
-                    <label for="phone"> ስልክ-ቁጥር</label>
-                    <input id="phone" name="phone" type="tel"
+                    <label for="phoneNum"> ስልክ-ቁጥር</label>
+                    <input id="phoneNum" name="phoneNum" type="tel"
                            placeholder="(xxx) xxx-xxx">
                 </p>
 
                 <p>
-                    <label for="emailaddress">ኢ-ሜል</label>
-                    <input id="emailaddress" name="emailaddress" type="email"
+                    <label for="email">ኢ-ሜል</label>
+                    <input id="email" name="email" type="email"
                            placeholder="For confirmation only">
                 </p>
 
                 <p>
-                    <label for="dob"> የትውልድ-ቀን:</label>
-                    <input id="dob" name="dob" type="date"
+                    <label for="birthDate"> የትውልድ-ቀን:</label>
+                    <input id="birthDate" name="birthDate" type="date"
                            placeholder="MM/DD/YYYY">
                 </p>
 
                 <p>
                     <label for="Bond">ቦንድ-መጠን:</label>
-                    <input id="bond" name="Bond-Amount" type="text"
-                           placeholder="Amount" required>
+                    <input id="bond" name="bond" type="text"
+                           placeholder="Bond Amount" required>
                 </p>
 
                 <p>
-                    <label for="Saving">የቁጠባ-መጠን:</label>
-                    <input id="saving" name="Saving-Amount" type="text"
-                           placeholder="Amount" required>
+                    <label for="install">የቁጠባ-መጠን:</label>
+                    <input id="install" name="install" type="text"
+                           placeholder="Initial Saving" required>
                 </p>
 
             </div>
-            <button class="btn" id="Signbutton">ይመዝገቡ</button>
+            <button class="btn" type="submit" id="Signbutton">ይመዝገቡ</button>
 
 
         </fieldset>
