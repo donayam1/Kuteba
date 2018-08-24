@@ -22,6 +22,8 @@ namespace BusinessLogic
                  Where(u1 => u1.UserName == u.UserName && 
                              u1.Password == u.Password).
                              FirstOrDefault();
+            //List<User> users = new List<User>();
+            
             if (user == null)
                 return false;
             else

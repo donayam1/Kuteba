@@ -1,16 +1,13 @@
 ﻿
 .container1 { 
-    background-color: white;
-    /*color: white;*/
-    margin-left:150px;
-    float:right;
+    background-color: #ccccec;
     padding-top:0;
     margin-top:0;
     height:60px;
 	width:100%;
 	
 }
-.navi {  background-color: #7ca334;
+.navi {  background-color: #8dd20ee0;
     color: white;
 }
 
@@ -18,7 +15,6 @@
 .navi ul
 {
 	margin:0;
-    width:96%;
     height:30px;
 }
 .navi li{
@@ -29,7 +25,7 @@
 	 text-align:center;
      padding-right:50px;
      margin-right:20px;
-	 font:bold 14px Tahoma;
+	 font:18px Forte;
 	 position:relative;
 	 height:20px;
 }

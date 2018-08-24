@@ -6,10 +6,11 @@ using System.Web.Mvc;
 
 namespace Kuteba.Controllers
 {
-    public class AddEmployeeController : Controller
+    public class EmployeeController : Controller
     {
-        // GET: Add
-        public ActionResult Index()
+        // GET: EmployeeId
+      
+        public ActionResult EmployeeId()
         {
             return View();
         }

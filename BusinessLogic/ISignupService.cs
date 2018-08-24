@@ -10,6 +10,6 @@ namespace BusinessLogic
 {
     public interface ISignupService
     {
-        User Signup(UserViewModel_Signup u);
+        User Signup(UserViewModelSignup u);
     }
 }

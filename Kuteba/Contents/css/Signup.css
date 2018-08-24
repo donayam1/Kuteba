@@ -1,11 +1,10 @@
 
-﻿
-
-fset{
-	background-color:deepskyblue;
+.fset{
+	background-color:floralwhite;
     display:block;
-	-webkit-border-radius: 25px;
      width:500px;
+     margin-top:60px;
+     margin-left:120px;
      height:auto;
 	
 }
