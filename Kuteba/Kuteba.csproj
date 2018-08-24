@@ -127,12 +127,17 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AddEmployeeController.cs" />
     <Compile Include="Controllers\AnnouncementAdminController.cs" />
     <Compile Include="Controllers\AnnouncementController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\EmployeeSalaryController.cs" />
+    <Compile Include="Controllers\EmployeesListController.cs" />
     <Compile Include="Controllers\FinanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ListOfUsersController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\SetSalaryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -189,6 +194,11 @@
     <Content Include="Views\AnnouncementAdmin\List.cshtml" />
     <Content Include="Views\AnnouncementAdmin\Edit.cshtml" />
     <Content Include="Views\Employee\EmployeeId.cshtml" />
+    <Content Include="Views\AddEmployee\Index.cshtml" />
+    <Content Include="Views\EmployeeSalary\Index.cshtml" />
+    <Content Include="Views\EmployeesList\EmployeesList.cshtml" />
+    <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
+    <Content Include="Views\SetSalary\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
