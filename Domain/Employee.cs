@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain
 {
@@ -13,7 +9,8 @@ namespace Domain
         [Key]
         public String EmployeeId { get; set; }
         public String Name { get; set; }
-        public String ProfilePicture { get; set; }       
+        public String ProfilePicture { get; set; }
+        public DateTime Birthday { get; set; }
         public int InitialSavings { get; set; }
 
 

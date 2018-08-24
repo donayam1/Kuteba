@@ -5,22 +5,23 @@ namespace ViewModels
 {
     public class EmployeeViewmodel
     {
+        //Viewmodel For Creating and Viewing An employee
         [Required(ErrorMessage = "Employee Name is required.")]//handles or captures The Name Of the Employee
-        public string EmploeeName { get; set; }
+        public string EmployeeName { get; set; }
 
         [Required(ErrorMessage = "Employee ID is required.")]//Handles or Captures the Employees ID
         public  String EmployeeID { get; set; }
 
-        //Code after this To Be Added After Edit of Domain
+        [Required(ErrorMessage = "Employee Birthdate is required.")]//Handles/Captures the EMployees Birthday
+        public DateTime Birthday{ get; set; }
+        
+        [Required(ErrorMessage = "Employee Profile Picture is required.")]//Handles/Captures the Location Of the Employee Profile Picture
+        public string ProfilePicture{ get; set; }
 
-        /*
-          [Required(ErrorMessage = "Employee Birthdate is required.")]
-          public string Birthday{ get; set; }
+        [Required(ErrorMessage = "Employee Savings Amount is required.")]//handles/Captures the Initial savings Amount
+        public int InitialSavings { get; set; }
 
-          [Required(ErrorMessage = "Employee Picture is required.")]
-          public string  ID_Picture{ get; set; }
-
-         */
+        public String SearchByID { get; set; }
 
     }
 }

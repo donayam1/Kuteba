@@ -15,6 +15,7 @@ namespace BusinessLogic
 
         public SignupService(KutebaDatabase db)
         {
+            //set Database
             kdb = db;
         }
 
