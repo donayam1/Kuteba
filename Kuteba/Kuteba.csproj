@@ -194,13 +194,10 @@
     <Content Include="Views\Shared\_masterLayout.cshtml" />
     <Content Include="Views\AnnouncementAdmin\Edit.cshtml" />
     <Content Include="Views\AnnouncementAdmin\List.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
-=======
     <Content Include="Views\AddEmployee\Index.cshtml" />
     <Content Include="Views\EmployeeSalary\Index.cshtml" />
     <Content Include="Views\SetSalary\Index.cshtml" />
->>>>>>> 37b1cab7deb7a0cfb06eee341e125073568e401a
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

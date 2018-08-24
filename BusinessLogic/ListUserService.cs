@@ -23,7 +23,7 @@ namespace BusinessLogic
         {
             List<User> users = new List<User>();
 
-            users = Db.Users.Where(x=>true).ToList();
+            users = Db.Users.Include(nameof(User.employe)).Where(x=>true).ToList();
             
 
             return users; 

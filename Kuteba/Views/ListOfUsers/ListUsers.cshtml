@@ -1,6 +1,6 @@
 ﻿@using Domain
 @using BusinessLogic 
-
+@model List<User>
 
 @{
     Layout = null;
@@ -30,7 +30,7 @@
                 {
                     <tr>
                         <td>
-                            @v.employe.Name
+                            @v.UserName
                         </td>
                         <td>
                             @v.employe.EmployeeId
