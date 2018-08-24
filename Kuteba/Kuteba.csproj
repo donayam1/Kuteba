@@ -206,6 +206,10 @@
       <Project>{942ab0d5-497a-4d1e-8ba3-efb94430f74c}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj">
+      <Project>{48ffe4bc-6ce9-433a-9b68-46fae7f6deac}</Project>
+      <Name>ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
