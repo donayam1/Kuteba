@@ -18,15 +18,32 @@ namespace BusinessLogic
             kdb = db;
         }
 
-        public User Signup(UserViewModel_Signup u)
+        public User Signup(UserViewModelSignup u)
         {
-            User usr = new User();
-            usr.UserName = u.Username;
-            usr.Password = u.password;
-            usr.isPendding = true;
 
-            kdb.Users.Add(usr);
-            return usr;
+            
+            var us = kdb.Employees.Where(e1 => e1.EmployeeId == u.employeeID).FirstOrDefault();
+
+            var user = kdb.Users.Where(u1 => u1.UserName == u.employeeID).FirstOrDefault();
+
+            if (us == null && user == null)
+            {
+                Employee emp = new Employee();
+                emp.EmployeeId = u.employeeID;
+                kdb.Employees.Add(emp);
+                
+                User usr = new User();
+                usr.UserName = u.employeeID;
+                usr.Password = u.password;
+                usr.isPendding = true;
+
+                kdb.Users.Add(usr);
+                kdb.SaveChanges();
+                return usr;
+             }
+            else {
+                return null;
+            }
         }
     }
 }

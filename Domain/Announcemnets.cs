@@ -11,7 +11,7 @@ namespace Domain
     public class Announcemnets
     {
         [Key]
-        public int Id { get; set; }
+        public String Id { get; set; }
         public String PictureUrl { get; set; }
         public String Title { get; set; }
         public String Text { get; set; }

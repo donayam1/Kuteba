@@ -6,10 +6,8 @@ using System.Web;
 
 namespace ViewModels
 {
-    public class UserViewModel_Signup
+    public class UserViewModelSignup
     {
-        [Required(ErrorMessage = "Username is required.")]
-        public string Username { get; set; }
         [Required(ErrorMessage = "Employee ID is required.")]
         public string employeeID { get; set; }
         [Required(ErrorMessage = "Password is required.")]
@@ -22,7 +20,5 @@ namespace ViewModels
         public int bond { get; set; }
         [Required(ErrorMessage = "Installment is required.")]
         public float install { get; set; }
-        [Required(ErrorMessage = "You need to select the type of account.")]
-        public int type { get; set; }
     }
 }
