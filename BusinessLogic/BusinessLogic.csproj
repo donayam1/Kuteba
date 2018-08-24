@@ -48,12 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="IEmployeeManager.cs" />
-=======
     <Compile Include="IListUserService.cs" />
->>>>>>> f924cfd60f1b468cf4ae590f7cf6b752061afbc3
     <Compile Include="ISignupService.cs" />
     <Compile Include="ListUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
