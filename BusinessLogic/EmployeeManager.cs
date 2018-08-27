@@ -9,6 +9,7 @@ namespace BusinessLogic
     {
         KutebaDatabase kdb;//Creating Database object
 
+
         public EmployeeManager(KutebaDatabase db)
         {
             //Initiation Of Database
