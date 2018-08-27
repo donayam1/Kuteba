@@ -138,6 +138,7 @@
     <Compile Include="Controllers\ListOfUsersController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SetSalaryController.cs" />
+    <Compile Include="Controllers\UserAdminController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -179,6 +180,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Contents\js\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\UserAdmin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">

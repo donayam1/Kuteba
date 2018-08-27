@@ -20,7 +20,7 @@
 
 .loginform {
 
-    background-color:#cbd3d8a1;
+    background-color:#cbd3d8;
     opacity:1.5;
     color:black;
     float:right;
@@ -36,9 +36,9 @@
 
 input {
 border-radius:10px;
-width:150px;
-float-right;
-margin-right:30px;
+width:180px;
+float:right;
+margin-right:4px;
 
 }
 #userName {
