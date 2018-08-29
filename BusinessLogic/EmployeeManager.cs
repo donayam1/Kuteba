@@ -24,7 +24,6 @@ namespace BusinessLogic
             emp.EmployeeId = evm.EmployeeID;
             emp.Birthday = evm.Birthday;
             emp.ProfilePicture = evm.ProfilePicture;
-            emp.InitialSavings = evm.InitialSavings;
             kdb.Employees.Add(emp);
             return emp;
         }
@@ -40,7 +39,6 @@ namespace BusinessLogic
             evm.EmployeeID = emp.EmployeeId;
             evm.Birthday = emp.Birthday;
             evm.ProfilePicture = evm.ProfilePicture;
-            evm.InitialSavings = emp.InitialSavings;
             return evm;//Return The View Model To Html
         }
 
