@@ -202,9 +202,9 @@
     <Content Include="Views\Employee\EmployeeId.cshtml" />
     <Content Include="Views\AddEmployee\Index.cshtml" />
     <Content Include="Views\EmployeeSalary\Index.cshtml" />
-    <Content Include="Views\EmployeesList\Index.cshtml" />
     <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
     <Content Include="Views\SetSalary\Index.cshtml" />
+    <Content Include="Views\EmployeesList\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
