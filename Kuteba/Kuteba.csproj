@@ -146,8 +146,10 @@
     <Compile Include="ViewModel\UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contents\Images\50cent.jpg" />
     <Content Include="Contents\css\adminlayout.css" />
     <Content Include="Contents\css\announcement.css" />
+    <Content Include="Contents\css\EmployeesList.css" />
     <Content Include="Contents\css\intialMenu.css" />
     <Content Include="Contents\css\login.css" />
     <Content Include="Contents\css\Signup.css" />
@@ -159,8 +161,10 @@
     <Content Include="Contents\Images\border.jpg" />
     <Content Include="Contents\Images\fifty.jpg" />
     <Content Include="Contents\Images\five_cent.jpg" />
+    <Content Include="Contents\Images\heart.jpg" />
     <Content Include="Contents\Images\quteba.PNG" />
     <Content Include="Contents\Images\Screenshot_2018-07-26-09-12-05.jpg" />
+    <Content Include="Contents\Images\wall.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -198,7 +202,7 @@
     <Content Include="Views\Employee\EmployeeId.cshtml" />
     <Content Include="Views\AddEmployee\Index.cshtml" />
     <Content Include="Views\EmployeeSalary\Index.cshtml" />
-    <Content Include="Views\EmployeesList\EmployeesList.cshtml" />
+    <Content Include="Views\EmployeesList\Index.cshtml" />
     <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
     <Content Include="Views\SetSalary\Index.cshtml" />
   </ItemGroup>
