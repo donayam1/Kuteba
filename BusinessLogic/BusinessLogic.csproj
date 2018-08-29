@@ -52,11 +52,13 @@
     <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IListUserService.cs" />
     <Compile Include="ISignupService.cs" />
+    <Compile Include="IUpdatePendingService.cs" />
     <Compile Include="ListUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ILoginService.cs" />
     <Compile Include="LoginService.cs" />
     <Compile Include="SignupService.cs" />
+    <Compile Include="UpdatePendingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Database\Database.csproj">

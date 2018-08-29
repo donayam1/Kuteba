@@ -15,6 +15,7 @@ namespace Kuteba.Controllers
         KutebaDatabase kdb;
         IUpdatePendingService pendingServices;
         public UserAdminController() {
+            kdb = new KutebaDatabase();
             pendingServices = new UpdatePendingService(kdb);
         }
         [HttpPost]
@@ -22,6 +23,7 @@ namespace Kuteba.Controllers
         public ActionResult UpdatePending(string UserId,bool status)
         {
             pendingServices.pendingController(UserId, status);
+            kdb.SaveChanges();
             return View();
         }
     }
