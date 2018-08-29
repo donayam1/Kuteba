@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ViewModels
 {
@@ -13,6 +14,7 @@ namespace ViewModels
         public  String EmployeeID { get; set; }
 
         [Required(ErrorMessage = "Employee Birthdate is required.")]//Handles/Captures the EMployees Birthday
+        [Column (TypeName = "datetime2")]
         public DateTime Birthday{ get; set; }
         
         [Required(ErrorMessage = "Employee Profile Picture is required.")]//Handles/Captures the Location Of the Employee Profile Picture

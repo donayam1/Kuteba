@@ -30,6 +30,8 @@ namespace BusinessLogic
             {
                 Employee emp = new Employee();
                 emp.EmployeeId = u.employeeID;
+                emp.Birthday = u.birthDate;
+                emp.InitialSavings = u.install;
                 kdb.Employees.Add(emp);
                 
                 User usr = new User();
