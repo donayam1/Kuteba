@@ -11,58 +11,63 @@
 @section BodyPart{
 
  
-    <form action="@Url.Action("signup","login")" method="post">
-        <fieldset class="fset">
-            <div class="one">
-                <p>
-                    <label for="employeeID">መታወቅያ ቁጥር :</label>
-                    <input id="employeeID" Name="employeeID" type="text"
-                           placeholder="Id" required>
-                </p>
+    <form  action="@Url.Action("signup","login")" method="post">
+        <div id="signupform">
+            <fieldset class="fset">
+               <p> Sign-Up Here!!!</p><hr />
+                <div class="one">
+                   
+                    <p>
+                        <label for="employeeID">መታወቅያ ቁጥር :</label>
+                        <input id="employeeID" Name="employeeID" type="text"
+                               placeholder="Id" required>
+                    </p>
 
-                <p>
-                    <label for="password">ሚስጥር-ቁጥር:</label>
-                    <input id="password" name="password" type="text"
-                           placeholder="password" required>
-                </p>
+                    <p>
+                        <label for="password">ሚስጥር-ቁጥር:</label>
+                        <input id="password" name="password" type="text"
+                               placeholder="password" required>
+                    </p>
+                    
 
-                <p>
-                    <label for="phoneNum"> ስልክ-ቁጥር</label>
-                    <input id="phoneNum" name="phoneNum" type="tel"
-                           placeholder="(xxx) xxx-xxx">
-                </p>
+                    <p>
+                        <label for="phoneNum"> ስልክ-ቁጥር</label>
+                        <input id="phoneNum" name="phoneNum" type="tel"
+                               placeholder="(xxx) xxx-xxx">
+                    </p>
 
-                <p>
-                    <label for="email">ኢ-ሜል</label>
-                    <input id="email" name="email" type="email"
-                           placeholder="For confirmation only">
-                </p>
+                    <p>
+                        <label for="email">ኢ-ሜል</label>
+                        <input id="email" name="email" type="email"
+                               placeholder="For confirmation only">
+                    </p>
 
-                <p>
-                    <label for="birthDate"> የትውልድ-ቀን:</label>
-                    <input id="birthDate" name="birthDate" type="date"
-                           placeholder="MM/DD/YYYY">
-                </p>
+                    <p>
+                        <label for="birthDate"> የትውልድ-ቀን:</label>
+                        <input id="birthDate" name="birthDate" type="date"
+                               placeholder="MM/DD/YYYY">
+                    </p>
 
-                <p>
-                    <label for="Bond">ቦንድ-መጠን:</label>
-                    <input id="bond" name="bond" type="text"
-                           placeholder="Bond Amount" required>
-                </p>
+                    <p>
+                        <label for="Bond">ቦንድ-መጠን:</label>
+                        <input id="bond" name="bond" type="text"
+                               placeholder="Bond Amount" required>
+                    </p>
 
-                <p>
-                    <label for="install">የቁጠባ-መጠን:</label>
-                    <input id="install" name="install" type="text"
-                           placeholder="Initial Saving" required>
-                </p>
+                    <p>
+                        <label for="initial">የቁጠባ-መጠን:</label>
+                        <input id="initial" name="initial" type="text"
+                               placeholder="Initial Saving" required>
+                    </p>
+                    
 
-            </div>
-            <button class="btn" type="submit" id="Signbutton">ይመዝገቡ</button>
-
-
-        </fieldset>
+                </div>
+                <button class="btn" type="submit" id="Signbutton">ይመዝገቡ</button>
 
 
+            </fieldset>
+
+        </div>
 
     </form>
 
