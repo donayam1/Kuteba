@@ -15,14 +15,15 @@ namespace Kuteba.Controllers
         KutebaDatabase kdb;
         IUpdatePendingService pendingServices;
         public UserAdminController() {
+            kdb = new KutebaDatabase();
             pendingServices = new UpdatePendingService(kdb);
         }
         [HttpPost]
         // GET: UserAdmin
         public ActionResult UpdatePending(string UserId,bool status)
         {
-            pendingServices.pendingController(UserId, status);
-            return View();
+            pendingServices.UpdatePendingStatus(UserId, status);
+            return Redirect(Url.Action("ListUsers", "ListOfUsers"));
         }
     }
 }
