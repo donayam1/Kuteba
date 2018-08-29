@@ -10,16 +10,36 @@ h2 {
     background-color:white;
     border:groove;
     border-color:black;
-    color:black;
-    font-family:'Comic Sans MS';
     margin-top:50px;
     margin-left:300px;
     align-content:center;
     padding:10px;
-    height:250px;
+    height:300px;
     width:400px;
 }
-#EmployeeName {
+.fieldbox {
+    width:100%;
+    height:2em;
+}
+.Labels {
+    color:black;
+    font-family:'Comic Sans MS';
+    float: left;
+    
+}
+
+br{
+clear: both;
+}
+
+.Field
+{
+    padding: 0.1em; 
+    width: 18em; 
+    float:right;
+    height:1em;
+}
+/*#EmployeeName {
    padding:4px;
    margin:1px;
    margin-left:5.5px;
@@ -34,6 +54,9 @@ h2 {
     padding: 4px;
     margin:5px;
     margin-left: 17.5px;
+}*/
+#Proflie {
+    width: 12em;
 }
 #Register {
     margin:25px;
