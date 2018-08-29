@@ -3,17 +3,13 @@
 @model List<User>
 
 @{
-    Layout = null;
+    Layout = Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ListUsers</title>
-</head>
-<body>
+@section initalCSS{
+    
+}
+@section BodyPart{
     @*<form class="form" method="post" action="#">  *@
         <table>
             <thead>
@@ -62,6 +58,5 @@
                 }
             </tbody>
         </table>
-    @*</form>*@
-</body>
-</html>
+    }
+
