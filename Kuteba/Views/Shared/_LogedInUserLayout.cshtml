@@ -8,7 +8,7 @@
     }
 
 
-  <a href="@Url.Action("signout","login")">signout</a>
+  <a href="@Url.Action("signout","login")">Welcome @HttpContext.Current.User.Identity.Name signout  </a>
 
 
     <div class="container">
@@ -28,9 +28,9 @@
                             <li><a href="#">HOME</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">INSIDE INFORMATION</a><span class="Darrow">&#9660;</span>
+                    <li><a href="#">Employee Admin</a><span class="Darrow">&#9660;</span>
                         <ul class="sub1">
-                            <li><a href="">HOME</a></li>
+                            <li><a href="@Url.Action("index", "AddEmployee")">Add</a></li>
                             <li><a href="#">HOME</a></li>
                             <li><a href="#">HOME</a></li>
                         </ul>

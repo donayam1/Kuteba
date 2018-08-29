@@ -20,5 +20,10 @@ namespace ViewModels
         [Required(ErrorMessage = "Employee Profile Picture is required.")]//Handles/Captures the Location Of the Employee Profile Picture
         public string ProfilePicture{ get; set; }
 
+        [Required(ErrorMessage = "Employee Savings Amount is required.")]//handles/Captures the Initial savings Amount
+        public float InitialSavings { get; set; }
+
+        public String SearchByID { get; set; }
+
     }
 }

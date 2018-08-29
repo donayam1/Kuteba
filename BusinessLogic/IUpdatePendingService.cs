@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain;
-using ViewModels;
 
 namespace BusinessLogic
 {
-    public interface ISignupService
+    public interface IUpdatePendingService
     {
-        User Signup(UserSignUpViewModel u);
+        User UpdatePendingStatus(string UserId, bool status);
     }
 }
