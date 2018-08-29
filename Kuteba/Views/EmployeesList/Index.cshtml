@@ -4,9 +4,9 @@
     Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
 }
 
-<link type="text/css" rel="stylesheet" href="~/Contents/css/EmployeesList.css" />
+
 @section initalCSS{
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/EmployeesList.css" />
 }
 <!--
     <link type="text/css" rel="stylesheet" href="~/Contents/css/bootstrap/bootstrap.css" />
@@ -24,6 +24,7 @@
                     <th>Employee ID</th>
                     <th>Photo</th>
                     <th>Status</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,22 +32,25 @@
                     <td>1</td>
                     <td>Employee 1</td>
                     <td>Atr/7895/02</td>
-                    <td><img src="~/Content/Images/wall.jpg" width="200" height="200"></td>
+                    <td><img src="~/Contents/Images/50cent.jpg" alt="staff_member 1" width="100" height="100"></td>
                     <td>present</td>
+                    <td><a class="btn btn-default" href="#" style="color:red">Deactivate</a></td>
                 </tr>
                 <tr classs="text-danger">
                     <td>2</td>
                     <td>Employee 2</td>
                     <td>Atr/7895/02</td>
-                    <td><img src="~/Content/Images/50cent.jpg" width="200" height="200"></td>
+                    <td><img src="~/Contents/Images/wall.jpg" alt="staff_member 2" width="100" height="100"></td>
                     <td>present</td>
+                    <td><a class="btn btn-default" href="#" style="color:red">Deactivate</a></td>
                 </tr>
                 <tr class="text-info">
                     <td>3</td>
                     <td>Employee 3</td>
                     <td>Atr/7895/02</td>
-                    <td><img src="~/Content/Images/heart.jpg" width="200" height="200"></td>
+                    <td><img src="~/Contents/Images/heart.jpg" alt="staff_member 3" width="100" height="100"></td>
                     <td>present</td>
+                    <td><a class="btn btn-default" href="#" style="color:red">Deactivate</a></td>
                 </tr>
             </tbody>
         </table>

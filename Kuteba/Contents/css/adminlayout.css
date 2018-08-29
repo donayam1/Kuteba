@@ -39,7 +39,7 @@
     width:auto;
 }
 .navi li:hover{
-background-color:blueviolet;
+background-color:orange;
 
 }
 
@@ -71,7 +71,7 @@ background-color:blueviolet;
     /*margin-top:20px;*/
     line-height:10px;
     /*align-content:center;*/
-	color:white;
+	color:black;
 	
 }
 .navi #menu  li:hover ul{
