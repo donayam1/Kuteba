@@ -17,7 +17,7 @@ namespace ObjectMapper
             emp.Name = evm.EmployeeName;
             emp.EmployeeId = evm.EmployeeID;
             emp.Birthday = evm.Birthday.ToString();
-            emp.ProfilePicture = evm.ProfilePicture;
+            emp.ProfilePicture = evm.ProfilePicture.Location;
             return emp;
         }
         public static EmployeeViewmodel ToViewModel(this Employee emp)
