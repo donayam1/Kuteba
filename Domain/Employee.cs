@@ -13,8 +13,6 @@ namespace Domain
         public String ProfilePicture { get; set; }
         [Column (TypeName = "datetime2")]
         public DateTime Birthday { get; set; }
-        public float InitialSavings { get; set; }
-
 
     }
 }
