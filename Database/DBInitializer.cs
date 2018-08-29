@@ -63,7 +63,7 @@ namespace Database
                 Id = Guid.NewGuid().ToString(),
                 Uint = "%",
                 isActive = true,
-                ChagedDate = DateTime.Now
+                ChagedDate = DateTime.Now.ToString()
             };
             context.SavingAmounts.Add(sa);
 

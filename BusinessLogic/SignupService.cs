@@ -18,7 +18,7 @@ namespace BusinessLogic
             kdb = db;
         }
 
-        public User Signup(UserViewModelSignup u)
+        public User Signup(UserSignUpViewModel u)
         {
 
             
@@ -30,7 +30,7 @@ namespace BusinessLogic
             {
                 Employee emp = new Employee();
                 emp.EmployeeId = u.employeeID;
-                emp.Birthday = u.birthDate;
+                emp.Birthday = u.birthDate.ToShortDateString();
                 emp.InitialSavings = u.install;
                 kdb.Employees.Add(emp);
                 
