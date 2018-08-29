@@ -1,13 +1,33 @@
-
+#signupform{
+    width:100%;
+    background-size:100% 100%;
+    background-image:url('../Images/Background.png');
+	height:500px;
+}
 .fset{
-	background-color:#cbd3d8;
-    display:block;
-     width:500px;
-     margin-top:60px;
-     margin-left:120px;
-     height:auto;
+	
+    background-color:#cbd3d8;
+    opacity:1;
+    width:480px;
+    color:black;
+    border-color:#f4f4f53b;
+    float:right;
+    -webkit-border-radius:10px;
+    margin-right:30px;
+    margin-top:10px;
 	
 }
+.fset>p{
+ font:18px Forte;
+ margin-left:150px;
+ line-height:0;
+
+}
+hr {
+border-color:blanchedalmond;
+
+}
+
 .one {
 	 display:block;
 	 width:480px;
@@ -27,7 +47,7 @@
 }
 
 
- #username ,#password,#emailaddress,#phone,#dob,#bond,#saving {
+ #employeeID ,#password,#email,#phoneNum,#birthDate,#bond,#initial,#username,#Description {
 	width:300px;
 	height:25px;
 	margin: 0px 2px 0px 0px;
@@ -35,8 +55,7 @@
 
 
 .btn{
-    float: right;
-    background-color:#280154;
+    background-color:#8dd20e;
     margin-right:0%;
     margin-left:70%;
     margin-bottom:auto;

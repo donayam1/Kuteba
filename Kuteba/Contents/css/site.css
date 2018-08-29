@@ -2,7 +2,7 @@
       width:98%;
       height:480px;
       margin:auto;
-      background-color:#034b5412;
+      background-color:#034b54;
 }
 header {
     background-color:#7ca334;
@@ -34,7 +34,7 @@ header {
 	height:40px;
 	margin-bottom:5px;
 	text-align:center;
-	font:14px Tahoma;
-	background-color:#055a36;
+	font:11px italic;
+	background-color:#7ca334;
     clear:both;
 }
