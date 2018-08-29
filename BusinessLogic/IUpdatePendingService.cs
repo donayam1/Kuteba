@@ -9,6 +9,6 @@ namespace BusinessLogic
 {
     public interface IUpdatePendingService
     {
-        User pendingController(string UserId, bool status);
+        User UpdatePendingStatus(string UserId, bool status);
     }
 }

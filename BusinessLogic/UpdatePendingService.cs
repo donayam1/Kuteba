@@ -15,11 +15,12 @@ namespace BusinessLogic
             this.kdb = kdb;
         }
 
-        public User pendingController(string UserId, bool status) {
+        public User UpdatePendingStatus(string UserId, bool status) {
             var usr = kdb.Users.Where(u1 => u1.UserName == UserId).FirstOrDefault();
             if (usr != null && usr.isPendding)
             {
                 usr.isPendding = !usr.isPendding;
+                kdb.SaveChanges();
                 return usr;
             }
             else

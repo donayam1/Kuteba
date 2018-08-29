@@ -14,7 +14,7 @@
     <title>ListUsers</title>
 </head>
 <body>
-    <form class="form" method="post" action="@Url.Action("UpdatePending","UserAdmin")">
+    @*<form class="form" method="post" action="#">  *@
         <table>
             <thead>
                 <tr>
@@ -30,31 +30,38 @@
                     {
                     <tr>
                         <td>
-                            <input type="hidden" name="UserId" value="@v.UserName" />
+                            @*<input type="hidden" name="UserId" value="@v.UserName" />*@
                            <label  > @v.UserName </label> 
                         </td>
                         <td>
                             @v.employe.EmployeeId
                         </td>
                         <td>
-                            <input type="hidden" name="status" value="@v.isPendding.ToString()" />
+                            @*<input type="hidden" name="status" value="@v.isPendding.ToString()" />*@
                           <label>@v.isPendding</label>  
                         </td>
                         <td>
-                           @{if (v.isPendding)
-                               {
-                                   <input type="submit" value="Approve" />
-                               }
-                               else {
-                                   <input type="submit" value="Disable" />
-                               }
-                           }
+                            <form action="@Url.Action("UpdatePending","UserAdmin")" method="post">
+                                <input type="hidden" name="status" value="@v.isPendding.ToString()" />
+                                <input type="hidden" name="UserId" value="@v.UserName" />
+                                @{if (v.isPendding)
+                                    {
+                                        
+                                        <input type="submit" value="Approve" />
+                                    }
+                                    else
+                                    {
+                                        
+                                        <input type="submit" value="Disable" />
+                                    }
+                                }
+                            </form>
                         </td>
                     </tr>
                 }
                 }
             </tbody>
         </table>
-    </form>
+    @*</form>*@
 </body>
 </html>
