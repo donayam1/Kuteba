@@ -69,6 +69,10 @@
       <Project>{942ab0d5-497a-4d1e-8ba3-efb94430f74c}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ObjectMapper\ObjectMapper.csproj">
+      <Project>{854992e6-101b-459c-a5f2-55da645042e9}</Project>
+      <Name>ObjectMapper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ViewModels\ViewModels.csproj">
       <Project>{48ffe4bc-6ce9-433a-9b68-46fae7f6deac}</Project>
       <Name>ViewModels</Name>

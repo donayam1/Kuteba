@@ -7,8 +7,10 @@ using System.Web;
 
 namespace ViewModels
 {
-    public class UserViewModelSignup
+    public class UserSignUpViewModel
     {
+
+        //EmployeeViewmodel EmployeeViewModel { get; set; }
         [Required(ErrorMessage = "Employee ID is required.")]
         public string employeeID { get; set; }
         [Required(ErrorMessage = "Password is required.")]

@@ -66,7 +66,7 @@ namespace LoginVerification.Controllers
         }
 
         [HttpPost]
-        public ActionResult SignUp(UserViewModelSignup usr)
+        public ActionResult SignUp(UserSignUpViewModel usr)
         {
             if (ModelState.IsValid)
             {
