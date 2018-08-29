@@ -21,7 +21,7 @@ namespace ViewModels
         public string ProfilePicture{ get; set; }
 
         [Required(ErrorMessage = "Employee Savings Amount is required.")]//handles/Captures the Initial savings Amount
-        public int InitialSavings { get; set; }
+        public float InitialSavings { get; set; }
 
         public String SearchByID { get; set; }
 
