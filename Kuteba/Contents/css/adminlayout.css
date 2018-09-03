@@ -26,11 +26,11 @@
 }
 
 
-.navi ul
+/*.navi ul
 {
 	margin:0;
     height:30px;
-}
+}*/
 .navi li{
      display:inline-block;
 	-webkit-border-radius:5px;
@@ -65,6 +65,7 @@ background-color:orange;
 	margin:0px;
 	padding:0px;
 	top:30px;
+    width:189px;
 	clear:both;
 	
 }
@@ -83,7 +84,7 @@ background-color:orange;
 }
 .navi #menu  li:hover ul{
 	display:block;
-    /*background-color:orangered;*/
+    background-color:orangered;
 }
 
 
