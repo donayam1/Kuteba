@@ -205,6 +205,7 @@
     <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
     <Content Include="Views\SetSalary\Index.cshtml" />
     <Content Include="Views\EmployeesList\Index.cshtml" />
+    <Content Include="Views\Login\SignupSummary.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
