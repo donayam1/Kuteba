@@ -35,7 +35,7 @@ namespace BusinessLogic
 
         }
 
-        public void RemoveEmployee(EmployeeViewmodel evm)
+        public void DeActivateEmployee(EmployeeViewmodel evm)
         {
             //This Function Removes an Employee from The system
             //Find Employee With Given Parameters
