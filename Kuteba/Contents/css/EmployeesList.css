@@ -27,16 +27,18 @@ td{
     border: 0.5px outset;
 }
 
-tbody{
+table{
     border-collapse: collapse;
+    width:80%;
 }
-/*
-tr:nth-child(even) {
-    background-color: goldenrod;
+th, td {
+    text-align: left;
+    padding: 8px;
 }
-    */
+
+
  tr:hover {
-  background-color:#7ca334;
+  background-color:darkslateblue;
 }
 
 
