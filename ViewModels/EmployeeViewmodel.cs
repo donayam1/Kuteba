@@ -18,12 +18,20 @@ namespace ViewModels
         public DateTime Birthday{ get; set; }
         
         [Required(ErrorMessage = "Employee Profile Picture is required.")]//Handles/Captures the Location Of the Employee Profile Picture
-        public string ProfilePicture{ get; set; }
+        public Picture ProfilePicture{ get; set; }
 
         [Required(ErrorMessage = "Employee Savings Amount is required.")]//handles/Captures the Initial savings Amount
         public float InitialSavings { get; set; }
 
         public String SearchByID { get; set; }
 
+    }
+
+    public class Picture
+    {
+        //gets the image location, name and content
+        public String FileName { set; get; }//Have to set function and reference
+        public String Location { set; get; }
+        public byte[] Image { set; get; }//have to setfunction and reference
     }
 }

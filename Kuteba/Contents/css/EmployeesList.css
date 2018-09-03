@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-﻿.table-condensed thead {
+.table-condensed{
+    color:whitesmoke;
+    background-color:#0b4040;
+}
+.table-condensed thead {
     padding-top: 11px;
     padding-bottom: 11px;
     background-color: #7ca334;
@@ -10,7 +13,7 @@
     border-spacing: 0;
     width: 100%;
 }
-table, thead{
+ thead{
     border: 0.5px solid #7ca334;
     text-align: left;
     padding: 8px;
@@ -33,9 +36,9 @@ tr:nth-child(even) {
 }
     */
  tr:hover {
-  background-color: silver;
+  background-color:#7ca334;
 }
+
+
  
-=======
-﻿
->>>>>>> 73109ebceaeb98d1ee509edccdd12ee72b0c9f45
+
