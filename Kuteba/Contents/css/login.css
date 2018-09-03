@@ -6,8 +6,8 @@
 	height:430px;
 	
 }
-
-#mainbody{
+ /*#LeftSideImageSlider Css*/
+#slider{
 	width:740px;
 	height:380px;
 	padding:0%;
@@ -16,8 +16,26 @@
     margin-top:15px;
     margin-bottom:15px;
 	float:left;
+    overflow:hidden;
+}
+.slides{
+    display:block;
+    width:6000px;
+    height:400px;
+    margin:0;
+    padding:0;
+}
+.slide{
+    float:left;
+    list-style-type:none;
+    width:740px;
+    height:400px;
+}
+ img{
+    width:70%;
 }
 
+ /*#RightSideLoginForm Css*/
 .loginform {
 
     background-color:#cbd3d8;
@@ -30,8 +48,6 @@
     font-family:'Comic Sans MS';
     padding:10px;
     width:300px;
- 
-
 }
 
 input {
@@ -64,16 +80,16 @@ border-color:blanchedalmond;
     float: right;
     font-size: 15px;
     width:80px;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color:#363cac;
-   -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
+   /*-webkit-transition-duration: 0.4s;  /*Safari */
+   /*transition-duration: 0.4s;*/
 }
 
-#log:hover {
-    background-color:#7ca334; 
+/*#log:hover {
+    background-color:#7ca334;
     color:black;
 
-}
+}*/
 
   

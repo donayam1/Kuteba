@@ -4,77 +4,66 @@
     Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
 }
 
-<h2>Index</h2>
+
 @section initalCSS{
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/setSalaryform.css" />
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/AdminForm.css" />
 }
 @section BodyPart{
-   
-    <h3 id="set">Set Employ Salary</h3>
+    <div id="container2">
+    <h2>Set Employ Salary</h2>
     <div class=" salarySet">
-        <form>
-            <fieldset class="form1">
-                <p>
-                    <label>Select Employe:</label>
-                    <input name="employe" type="text" list="employes" placeholder="select your employe" />
-                    <datalist id="employes">
-                        <option>employe 1</option>
-                        <option>employe 2</option>
-                        <option>employe 3</option>
-                    </datalist><br />
-                </p>
-            </fieldset>
 
-            <fieldset class="form2">
-                <p>
-                    <label>Picture:</label>
-                    <input name="picture" type="file" /><br />
-                </p>
+        <div class="fieldbox">
+            <label>Select Employee:</label>
+            <input name="employees" type="text" list="employees"  id="employee" placeholder="select an employee" />
+            <datalist id="employees">
+                <option>employee 1</option>
+                <option>employee 2</option>
+                <option>employee 3</option>
+            </datalist><br />
+        </div>
 
 
-
-
-            </fieldset>
-            <fieldset class=" form3">
-                <p>
-                    <label>id:</label>
-                    <input name="id" id="id" type="text" placeholder="Enter the Id" />
-                    <br />
-                </p>
-                <p>
-                    <label>name:</label>
-                    <input name="name" id="name" type="text" placeholder="Enter the user name" />
-                    <br />
-                </p>
-            </fieldset>
+        <div class="fieldbox">
+            <label>Name:</label>
+            <input name="name" id="name" type="text" placeholder="Enter  user name" />
             <br />
-            <fieldset class=" form4">
-                <p>
-                    <label>New Salary:</label>
-                    <input name="new salary" type="number" placeholder="Enter the amount" />
-                    <br />
-                </p>
-                <p>
-                    <label>Activation date:</label>
-                    <input name="actDate" type="date" />
-                    <br />
-                </p>
-            </fieldset>
-            <br /><br />
+        </div>
+        <div class="fieldbox">
+            <label>Picture:</label>
+            <input name="picture" type="file" id="picture" />
+        </div>
 
-            <p>
-                <input name="save" type="button" id="save" value="save" />
-            </p>
 
-        </form>
+
+        @*<div class="fieldbox">
+            <label>name:</label>
+            <input name="name" id="name" type="text" placeholder="Enter  user name" />
+            <br />
+        </div>*@
+
+
+        <div class="fieldbox">
+            <label>New Salary:</label>
+            <input name="new salary" id="Ns" type="number" placeholder="Enter the amount" />
+        </div>
+
+        <div>
+            <label class="Labels"> Activation Date:  </label>
+            <input class="Field" id="dob" type="date" />
+        </div>
+        @*<div class="fieldbox">
+            <label>Activation date:</label>
+            <input name="actDate" type="date" id="birthDate" />
+        </div>*@
+
+
+        <br /> <input name="save" type="button" id="save" value="save" /><br />
+
 
     </div>
-    <br />
-    <div id="footer">
 
-        <p>Copyright ©:2018</p>
-
-    </div>
+</div>
 
 
     }

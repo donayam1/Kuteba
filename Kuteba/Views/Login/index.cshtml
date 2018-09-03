@@ -5,34 +5,39 @@
 }
 @section initalCSS{
     <link type="text/css" rel="stylesheet" href="~/Contents/css/login.css" />
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/bootstrap.min.css" />
-    @*@RenderSection("Script",false)*@
     }
 
-
-@section BodyPart{
-
+   @section  BodyPart{
 <div id="container2">
 
-    <div id="mainbody">
-    
-    </div>
+      <div id="slider">
+          <ul class="slides">
+              <li class="slide" ><img src="~/Contents/Images/img/Quteba-logo.jpg"/></li>
+              <li class="slide"><img src="~/Contents/Images/img/1 (2).jpeg"/></li>
+              <li class="slide"><img src="~/Contents/Images/img/2.jpeg"/></li>
+              <li class="slide"><img src="~/Contents/Images/img/new2.jpeg" /></li>
+              <li class="slide"><img src="~/Contents/Images/img/3 .jpg" /></li>
+              <li class="slide"><img src="~/Contents/Images/img/cover.2.jpg" /></li>
+              <li class="slide"><img src="~/Contents/Images/img/Quteba-logo.jpg" /></li>
+          </ul>
+      </div>
+
+   
     <div class="loginform">
         <form action="~/login/index" method="post">
 
 
 
-            Login to your account<hr />
+            ወደ አካውንቶ ለመግባት<hr />
             <br />
-            <label>User Name:</label>
+            <label>ስም:</label>
             <input id="Username" name="Username" type="text" />
             <br />
             <br />
-            <label> Password:  </label>
+            <label> ሚስጥር-ቁጥር:  </label>
             <input id="Password" name="Password"  type="password" />
             <br />
-            <input id="log" value="Login" type="submit" />
+            <input id="log" value="መግቢያ" type="submit" />
             <br />
             <div>
                 @Html.ValidationSummary()
@@ -40,6 +45,8 @@
 
         </form>
     </div>
+    <script type="text/javascript" src="~/Contents/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="~/Contents/js/slider.js"></script>
 </div>
   
     }

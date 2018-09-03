@@ -5,40 +5,44 @@
 }
 
 @section initalCSS{
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+<link type="text/css" rel="stylesheet" href="~/Contents/css/AdminForm.css" />
+}
 }
 @section BodyPart{
-<form class="signupform">
-    <fieldset class="fset">
-        <div class="one">
-            <p>
-                <label for="title">Title:</label>
-                <input id="username" Name="Title" type="text"
-                       placeholder="User name" required>
-            </p>
+    <div id="container2">
+        <h2>  Edit form</h2>
+            <fieldset class="Edit">
+                <div class="fieldbox">
+                    <label for="title">Title:</label>
+                    <input id="name" Name="Title" type="text"
+                           placeholder="User name" required>
+                </div> <br />
 
-            <p>
-                <label for="picture">Picture:</label>
-                <input id="password" name="Picture" type="file"
-                       placeholder="picture" required>
-            </p>
+                <div class="fieldbox">
+                    <label for="picture">Picture:</label>
+                    <input  name="Picture" type="file"
+                           placeholder="picture" required>
+                </div> <br />
+                    
 
-         
-            <p>
-                <label for="descriptiion">Description:</label>
-                <input id="Description" name="description" type="text"
-                       placeholder="Details for describing" required>
-            </p>
+                <div class="fieldbox">
 
-        </div>
-        <button class="btn" id="Signbutton">ይመዝገቡ</button>
+                    <label for="descriptiion">Description:</label>
+                    <input id="Description" name="description" type="text"
+                           placeholder="Details for describing" required>
+                </div> <br />
 
-
-    </fieldset>
+                    
+                <button class="btn" id="edit">Edit</button>
 
 
+            </fieldset>
 
-</form>
+
+
+       
+    </div>
+
 
  }
 
