@@ -149,7 +149,7 @@
     <Content Include="Contents\Images\50cent.jpg" />
     <Content Include="Contents\css\adminlayout.css" />
     <Content Include="Contents\css\announcement.css" />
-    <Content Include="Contents\css\AdminForm.css" />
+    <Content Include="Contents\css\CompleteAdmin.css" />
     <Content Include="Contents\css\intialMenu.css" />
     <Content Include="Contents\css\login.css" />
     <Content Include="Contents\css\Signup.css" />
@@ -198,6 +198,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Contents\Upload\" />
     <Folder Include="Models\" />
     <Folder Include="Views\UserAdmin\" />
   </ItemGroup>
