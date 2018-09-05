@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapper", "ObjectMapper\ObjectMapper.csproj", "{854992E6-101B-459C-A5F2-55DA645042E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{651659F6-2144-43A9-856A-A26E1222B603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{854992E6-101B-459C-A5F2-55DA645042E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854992E6-101B-459C-A5F2-55DA645042E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854992E6-101B-459C-A5F2-55DA645042E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651659F6-2144-43A9-856A-A26E1222B603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651659F6-2144-43A9-856A-A26E1222B603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651659F6-2144-43A9-856A-A26E1222B603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651659F6-2144-43A9-856A-A26E1222B603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

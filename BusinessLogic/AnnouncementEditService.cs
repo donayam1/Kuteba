@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Database;
 using Domain;
 using ViewModels;
+using ObjectMapper;
 
 namespace BusinessLogic
 {
@@ -17,26 +18,26 @@ namespace BusinessLogic
             this.kdb = kdb;
         }
 
-        public Announcemnets EditNewAnnouncement(AnnouncementEditViewModel avm)
+        public Announcemnets EditNewAnnouncement(AnnouncementViewModel avm)
         {
             var res = kdb.Announcemnets.Where(a1 => a1.Title == avm.Title).FirstOrDefault();
             if (res == null) {
-                Announcemnets ans = new Announcemnets();
+                Announcemnets ans = avm.ToDomainModel();// new Announcemnets();
                 Guid id = new Guid();
                 ans.Id = id.ToString();
-                ans.Title = avm.Title;
-                ans.VisibleDate = avm.VisibleDate.ToString();
-                ans.ExpDate = avm.ExpiaryDate.ToString();
-                ans.CreatedDate = DateTime.Now.ToLongDateString();
-                ans.PictureUrl = avm.PictureUrl;
-                ans.Text = avm.ContentDescription;
+                //ans.Title = avm.Title;
+                //ans.VisibleDate = avm.VisibleDate.ToString();
+                //ans.ExpDate = avm.ExpiaryDate.ToString();
+                //ans.CreatedDate = DateTime.Now.ToLongDateString();
+                //ans.PictureUrl = avm.PictureUrl;
+                //ans.Text = avm.ContentDescription;
 
                 kdb.Announcemnets.Add(ans);
                 kdb.SaveChanges();
-                return res;
+                return ans;
             }
             else
-                return null;
+                return res;
         }
     }
 }
