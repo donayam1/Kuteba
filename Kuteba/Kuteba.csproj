@@ -241,6 +241,10 @@
       <Project>{942ab0d5-497a-4d1e-8ba3-efb94430f74c}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{651659f6-2144-43a9-856a-a26e1222b603}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ViewModels\ViewModels.csproj">
       <Project>{48ffe4bc-6ce9-433a-9b68-46fae7f6deac}</Project>
       <Name>ViewModels</Name>
