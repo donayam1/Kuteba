@@ -5,13 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain;
 using ViewModels;
-
-
 namespace BusinessLogic
 {
     public interface IAnnouncementService
     {
         Announcemnets EditNewAnnouncement(AnnouncementEditViewModel avm);
-        List<Announcemnets> ListAnnouncements();
     }
 }

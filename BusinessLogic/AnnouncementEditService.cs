@@ -38,13 +38,5 @@ namespace BusinessLogic
             else
                 return null;
         }
-
-        public List<Announcemnets> ListAnnouncements()
-        {
-            List<Announcemnets> ann = new List<Announcemnets>();
-
-            ann = kdb.Announcemnets.Where(x=>DateTime.Compare(DateTime.Parse(x.ExpDate),DateTime.Now)<=0).ToList();
-            return ann;
-        }
     }
 }
