@@ -33,7 +33,7 @@ namespace Kuteba.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Edit(AnnouncementEditViewModel avm)
+        public ActionResult Edit(AnnouncementViewModel avm)
         {
             if (ModelState.IsValid)
             {
