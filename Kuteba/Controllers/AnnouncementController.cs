@@ -15,7 +15,7 @@ namespace Kuteba.Controllers
         IAnnouncementService ListAnn;
         KutebaDatabase KDb = new KutebaDatabase();
 
-        AnnouncementController()
+        public AnnouncementController()
         {
             ListAnn = new AnnouncementService(KDb);
         }

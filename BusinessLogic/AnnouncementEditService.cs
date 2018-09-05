@@ -23,7 +23,7 @@ namespace BusinessLogic
             var res = kdb.Announcemnets.Where(a1 => a1.Title == avm.Title).FirstOrDefault();
             if (res == null) {
                 Announcemnets ans = avm.ToDomainModel();// new Announcemnets();
-                Guid id = new Guid();
+                Guid id = Guid.NewGuid();
                 ans.Id = id.ToString();
                 //ans.Title = avm.Title;
                 //ans.VisibleDate = avm.VisibleDate.ToString();
@@ -44,7 +44,14 @@ namespace BusinessLogic
         {
             List<Announcemnets> ann = new List<Announcemnets>();
 
-            ann = kdb.Announcemnets.Where(x => DateTime.Compare(DateTime.Parse(x.ExpDate), DateTime.Now) <= 0).ToList();
+            var ann2 = kdb.Announcemnets.Where(x=>true) .ToList();
+            foreach (var v in ann2)
+            {
+                if (DateTime.Compare(DateTime.Parse(v.ExpDate), DateTime.Now) <= 0)
+                {
+                    ann.Add(v);
+                }
+            }
             return ann;
         }
     }
