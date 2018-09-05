@@ -76,20 +76,20 @@ border-color:blanchedalmond;
 #log {
     margin:25px;
     height:30px;
-    color:black;
+    color:white;
     float: right;
     font-size: 15px;
     width:80px;
-    border-radius: 10px;
-    background-color:#363cac;
+    /*border-radius: 10px;*/
+    background-color:#034b54;
    /*-webkit-transition-duration: 0.4s;  /*Safari */
    /*transition-duration: 0.4s;*/
 }
 
-/*#log:hover {
+#log:hover {
     background-color:#7ca334;
     color:black;
 
-}*/
+}
 
   

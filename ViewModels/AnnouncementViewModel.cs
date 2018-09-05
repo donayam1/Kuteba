@@ -7,11 +7,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ViewModels
 {
-    public class AnnouncementEditViewModel
+    public class AnnouncementViewModel
     {
+        public string Id { get; set; }
         [Required(ErrorMessage = "Title field is void.")]
         public string Title { get; set; }
-        [Required(ErrorMessage = "Poster picture is missing.")]
+        //[Required(ErrorMessage = "Poster picture is missing.")]
         public string PictureUrl { get; set; }
         [Required(ErrorMessage = "Active start date is not set.")]
         public DateTime VisibleDate { get; set; }

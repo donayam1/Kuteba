@@ -27,6 +27,13 @@ namespace Kuteba.Controllers
             return View();
         }
 
+        [HttpGet]
+        public JsonResult Search(String ID)
+        {
+            var VM = em.ViewEmployee(ID);
+            return Json(VM);
+        }
+
         [HttpPost]
         public ActionResult Index(EmployeeViewmodel evm)
         {

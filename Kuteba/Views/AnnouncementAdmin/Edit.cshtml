@@ -12,26 +12,27 @@
 
     <div id="container2">
         <h2>  Edit form</h2>
+        <form action="@Url.Action("Edit", "AnnouncementAdmin")" method="post">
             <fieldset class="Edit">
                 <div class="fieldbox">
                     <label for="title">Title:</label>
                     <input id="name" Name="Title" type="text"
-                           placeholder="User name" required>
+                           placeholder="Title" required>
                 </div> <br />
 
                 <div class="fieldbox">
                     <label for="picture">Picture:</label>
-                    <input  name="Picture" type="file"
+                    <input name="Picture" type="file"
                            placeholder="picture" required>
                 </div> <br />
-                    
+
 
                 <div class="fieldbox">
                     <label for="picture">Visible Date:</label>
                     <input id="dob" name="VisibleDate" type="date"
                            placeholder="Visible Date" required>
                 </div> <br />
-                    
+
 
                 <div class="fieldbox">
                     <label for="picture">Expire Date:</label>
@@ -39,20 +40,20 @@
                            placeholder="Expire Date" required>
                 </div> <br />
 
-                    <div class="fieldbox">
+                <div class="fieldbox">
 
-                        <label for="descriptiion">Description:</label>
-                        <input id="Description" name="description" type="text"
-                               placeholder="Details for describing" required>
-                    </div> <br />
-
-
-                    <button class="btn" id="edit">Edit</button>
+                    <label for="ContentDescription">Description:</label>
+                    <input id="Description" name="ContentDescription" type="text"
+                           placeholder="Details for describing" required>
+                </div> <br />
 
 
-        </fieldset>
+                <input class="btn" type="submit"  id="edit" value="Edit"/>
 
 
+            </fieldset>
+
+        </form>
 
        
     </div>
