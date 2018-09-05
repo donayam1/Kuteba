@@ -10,5 +10,6 @@ namespace BusinessLogic
     public interface IAnnouncementService
     {
         Announcemnets EditNewAnnouncement(AnnouncementEditViewModel avm);
+        List<Announcemnets> ListAnnouncements();
     }
 }
