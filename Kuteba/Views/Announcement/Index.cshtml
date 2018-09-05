@@ -1,4 +1,6 @@
-﻿
+﻿@using Domain
+@using BusinessLogic
+@model List<Announcemnets>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -11,83 +13,78 @@
 
 @section BodyPart{
     <!-- The Announcement -->
+    @{
+        foreach (Announcemnets ann in Model)
+        {
+            <form id="myAnnouncement" class="announcement">
 
-    <form id="myAnnouncement" class="announcement">
+                <!-- Announcement content -->
+                <fieldset class="announcement-content">
+                    <div class="announcement-header">
+                        Title:@ann.Title
+                        <nav id="myDate">Date: @ann.VisibleDate</nav>
+                    </div>
+                    <div class="announcement-body">
 
-        <!-- Announcement content -->
-        <fieldset class="announcement-content">
-            <div class="announcement-header">
-                Title
-                <nav id="myDate">Date</nav>
-                </div>
-            <div class="announcement-body">
-                
-                <img id="myImg" src="~/Contents/Images/img_someone.jpg" alt="Someone, country" >
-                
-               </div>
-            <div class="announcement-footer">
-                <p>
-         You cannot be sure how HTML will be displayed. Large or small screens, and resized 
-    windows will create different results.With HTML, you cannot change the output by adding 
-    extra spaces or extra lines in your HTML code.The browser will remove extra spaces and 
-    extra lines when the page is displayed.Any number of spaces, and any number of new 
-    lines, count as only one space.</p>
-            </div>
-        </fieldset>
+                        <img id="myImg" src=@ann.PictureUrl>
 
-    </form>
-   
-     <form id="myAnnouncement" class="announcement">
+                    </div>
+                    <div class="announcement-footer">
+                        <p>
+                            @ann.Text
+                        </p>
+                    </div>
+                </fieldset>
 
-    <!-- Announcement content -->
-    <fieldset class="announcement-content">
-        <div class="announcement-header">
-            Title
-            <nav id="myDate">Date</nav>
-        </div>
-        <div class="announcement-body">
-
-            <img id="myImg" src="~/Contents/Images/img_someone.jpg" alt="Someone, country" >
-
-        </div>
-        <div class="announcement-footer">
-            <p>
-                You cannot be sure how HTML will be displayed. Large or small screens, and resized
-    windows will create different results.With HTML, you cannot change the output by adding
-    extra spaces or extra lines in your HTML code.The browser will remove extra spaces and
-    extra lines when the page is displayed.Any number of spaces, and any number of new
-    lines, count as only one space.
-            </p>
-        </div>
-    </fieldset>
-
-</form>
-<form id="myAnnouncement" class="announcement">
-
-    <!-- Announcement content -->
-    <fieldset class="announcement-content">
-        <div class="announcement-header">
-            Title
-            <nav id="myDate">Date</nav>
-        </div>
-        <div class="announcement-body">
-
-            <img id="myImg" src="~/Contents/Images/img_someone.jpg" alt="Someone, country">
-
-        </div>
-        <div class="announcement-footer">
-            <p>
-            You cannot be sure how HTML will be displayed. Large or small screens, and resized
-    windows will create different results.With HTML, you cannot change the output by adding
-    extra spaces or extra lines in your HTML code.The browser will remove extra spaces and
-    extra lines when the page is displayed.Any number of spaces, and any number of new
-    lines, count as only one space.
-            </p>
-        </div>
-    </fieldset>
-
-</form>
-
-
+            </form>}
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+  
