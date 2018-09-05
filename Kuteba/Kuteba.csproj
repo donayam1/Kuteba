@@ -136,6 +136,7 @@
     <Compile Include="Controllers\FinanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListOfUsersController.cs" />
+    <Compile Include="Controllers\LoanAdminController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SetSalaryController.cs" />
     <Compile Include="Controllers\UserAdminController.cs" />
@@ -222,6 +223,8 @@
     <Content Include="Views\SetSalary\Index.cshtml" />
     <Content Include="Views\EmployeesList\Index.cshtml" />
     <Content Include="Views\Shared\_LogedInAdminLayout.cshtml" />
+    <Content Include="Views\LoanAdmin\CreateLoan.cshtml" />
+    <Content Include="Views\LoanAdmin\ListEmployeeLoan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

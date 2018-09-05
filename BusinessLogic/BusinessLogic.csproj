@@ -48,7 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnnouncementEditService.cs" />
     <Compile Include="EmployeeManager.cs" />
+    <Compile Include="IAnnouncementEditService.cs" />
     <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IListUserService.cs" />
     <Compile Include="ISignupService.cs" />
