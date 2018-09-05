@@ -7,11 +7,12 @@
    @RenderSection("initalCSS", false)
     }
 
-  <section id="signout">
+  <div id="signout">
        
-     <a href=" #"> እንካን ደህና መጡ @HttpContext.Current.User.Identity.Name </a>
-      <a href="@Url.Action("signout", "login")">    መዉጫ</a>
-  </section>
+            እንካን ደህና መጡ @HttpContext.Current.User.Identity.Name  
+            <a class="anchS-out"href="@Url.Action("signout", "login")"> መዉጫ</a> 
+     
+  </div>
   
 
 
