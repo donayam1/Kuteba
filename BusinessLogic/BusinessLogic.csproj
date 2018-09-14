@@ -49,8 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnnouncementEditService.cs" />
+    <Compile Include="EmployeeLoanService.cs" />
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="IAnnouncementEditService.cs" />
+    <Compile Include="IEmployeeLoanService.cs" />
     <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IListUserService.cs" />
     <Compile Include="ISignupService.cs" />
