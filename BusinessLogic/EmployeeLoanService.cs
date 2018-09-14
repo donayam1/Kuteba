@@ -25,6 +25,7 @@ namespace BusinessLogic
             {
                 //a mapper can be used
                 EmployeeLoan empLoan = new EmployeeLoan();
+                empLoan.Id = Guid.NewGuid().ToString();
                 empLoan.interest = elv.interest;
                 empLoan.LoanAmount = elv.LoanAmount;
                 empLoan.LoanDate = elv.LoanDate.ToString();
