@@ -21,21 +21,19 @@ namespace BusinessLogic
         {
             //This Function Adds An employee TO The Databas Kuteba Database
             Employee emp = evm.ToDomainModel();
-
             kdb.Employees.Add(emp);
             return emp;
         }
 
-        public EmployeeViewmodel ViewEmployee(EmployeeViewmodel SearchV)
+        public EmployeeViewmodel ViewEmployee(string SearchID)
         {
             //this Functio helps Display An Employee on the Website
-            var ID = SearchV.EmployeeID;//Extracting Empoyee's ID Value From A Search View model
-            Employee emp = kdb.Employees.Find(ID);//Searching The Database For Employee Object With Search ID Value
+            Employee emp = kdb.Employees.Find(SearchID);//Searching The Database For Employee Object With Search ID Value
             return emp.ToViewModel();
 
         }
 
-        public void RemoveEmployee(EmployeeViewmodel evm)
+        public void DeActivateEmployee(EmployeeViewmodel evm)
         {
             //This Function Removes an Employee from The system
             //Find Employee With Given Parameters

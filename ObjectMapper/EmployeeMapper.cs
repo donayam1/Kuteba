@@ -13,11 +13,11 @@ namespace ObjectMapper
         public static Employee ToDomainModel(this EmployeeViewmodel evm)
         {
             //This Function Adds An employee TO The Databas Kuteba Database
-            Employee emp = evm.ToDomainModel();
+            Employee emp = new Employee();
             emp.Name = evm.EmployeeName;
             emp.EmployeeId = evm.EmployeeID;
             emp.Birthday = evm.Birthday.ToString();
-            emp.ProfilePicture = evm.ProfilePicture.Location;
+            emp.ProfilePicture = evm.ProfilePicture.FullName;
             return emp;
         }
         public static EmployeeViewmodel ToViewModel(this Employee emp)

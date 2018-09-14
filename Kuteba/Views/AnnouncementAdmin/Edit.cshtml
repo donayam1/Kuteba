@@ -5,51 +5,59 @@
 }
 
 @section initalCSS{
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/Signup.css" />
+<link type="text/css" rel="stylesheet" href="~/Contents/css/AdminForm.css" />
 }
+
 @section BodyPart{
-<form class="signupform">
-    <fieldset class="fset">
-        <div class="one">
-            <p>
-                <label for="title">Title:</label>
-                <input id="username" Name="Title" type="text"
-                       placeholder="Title" required>
-            </p>
 
-            <p>
-                <label for="picture">Poster:</label>
-                <input id="password" name="Picture" type="file"
-                       placeholder="Poster" required>
-            </p>
-            <p>
-                <label for="picture">Visible Date:</label>
-                <input id="VisibleDate" name="VisibleDate" type="date"
-                       placeholder="Visible Date" required>
-            </p>
-            <p>
-                <label for="picture">Expire Date:</label>
-                <input id="ExpireDate" name="ExpireDate" type="date"
-                       placeholder="Expire Date" required>
-            </p>
-         
-            <p>
-                <label for="descriptiion">Content:</label>
-                <textarea name="Content">
+    <div id="container2">
+        <h2>  Edit form</h2>
+        <form action="@Url.Action("Edit", "AnnouncementAdmin")" method="post">
+            <fieldset class="Edit">
+                <div class="fieldbox">
+                    <label for="title">Title:</label>
+                    <input id="name" Name="Title" type="text"
+                           placeholder="Title" required>
+                </div> <br />
 
-                </textarea>
-                
-            </p>
-
-        </div>
-        <button class="btn" id="Signbutton">ይመዝገቡ</button>
+                <div class="fieldbox">
+                    <label for="picture">Picture:</label>
+                    <input name="Picture" type="file"
+                           placeholder="picture" required>
+                </div> <br />
 
 
-    </fieldset>
+                <div class="fieldbox">
+                    <label for="picture">Visible Date:</label>
+                    <input id="dob" name="VisibleDate" type="date"
+                           placeholder="Visible Date" required>
+                </div> <br />
 
 
+                <div class="fieldbox">
+                    <label for="picture">Expire Date:</label>
+                    <input id="dob" name="ExpireDate" type="date"
+                           placeholder="Expire Date" required>
+                </div> <br />
 
-</form>
+                <div class="fieldbox">
+
+                    <label for="ContentDescription">Description:</label>
+                    <input id="Description" name="ContentDescription" type="text"
+                           placeholder="Details for describing" required>
+                </div> <br />
+
+
+                <input class="btn" type="submit"  id="edit" value="Edit"/>
+
+
+            </fieldset>
+
+        </form>
+
+       
+    </div>
+
 
  }
 

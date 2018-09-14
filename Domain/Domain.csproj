@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Announcemnets.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeLoan.cs" />
     <Compile Include="EmployeeSalary.cs" />
     <Compile Include="EmployeeSavingAmount.cs" />
     <Compile Include="Group.cs" />

@@ -1,4 +1,24 @@
-﻿
+﻿#signout {
+    display:inline-block;
+    margin-top:-80px;
+    padding-left:35px;
+    font-size: 17px;
+    float:right;
+    color:white;
+    border: 1.4px solid midnightblue;
+    margin-right:10px;
+	width:17%;
+}
+
+.anchS-out{
+    display:block;
+    margin-top:15px;
+    padding-left:140px;
+    color:darkred;
+
+}
+
+
 .container1 { 
     background-color: #ccccec;
     padding-top:0;
@@ -12,30 +32,28 @@
 }
 
 
-.navi ul
+/*.navi ul
 {
 	margin:0;
     height:30px;
-}
+}*/
 .navi li{
      display:inline-block;
 	-webkit-border-radius:5px;
-	 /*float:right;*/
 	 list-style:none;
 	 text-align:center;
      padding-right:50px;
-     /*margin-left:30px;*/
       margin-right:30px;
 	 font:12px arial verdana;
 	 position:relative;
 	 height:30px;
-     width:auto;
+     width:140px;
 }
 .navi a{
 	text-decoration:none;
 	 display:inline-block;
-	line-height:25px;
-	color:black;
+	padding-top:10px;
+	color:white;
     width:auto;
 }
 .navi li:hover{
@@ -47,36 +65,33 @@ background-color:orange;
       /*rules for navigation Sub-menu*/
      /* =============================*/
    
-.navi #menu li .sub1{
+.navi #menu .sub1 {
 	display:none;
 	position:absolute;
 	margin:0px;
 	padding:0px;
 	top:30px;
+    width:189px;
 	clear:both;
 	
 }
-.navi #menu li {
+.navi #menu .sub1 li {
 	/*border:2px solid black;*/
-      /*padding-left:5px;*/
+     
 
 }
 
 .sub1 a{
-	/*margin-left:8px;*/
-	display:block;
-    width:50px;
-    height:auto;
     padding-left:15px;
-    /*margin-top:20px;*/
-    line-height:10px;
-    /*align-content:center;*/
-	color:black;
+    /*line-height:10px;*/
+    width:140px;
+	color:white;
 	
 }
 .navi #menu  li:hover ul{
 	display:block;
-    /*background-color:orangered;*/
+    background-color:crimson;
+    border-radius:5px;
 }
 
 

@@ -4,36 +4,39 @@
     Layout = "~/Views/Shared/_LogedInUserLayout.cshtml";
 }
 @section initalCSS{
-    <link type="text/css" rel="stylesheet" href="~/Contents/css/addemployeeform.css" />
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/AdminForm.css" />
 }
 @section BodyPart{
-<h2>New Employee form</h2>
+    <div id="container2">
 
-<div class="addform">
-    Enter the required information<hr />
-    <br />
-   <div class="fieldbox"> <label class="Labels">Employee Name:</label>
-    <input class="Field" id="EmployeeName" type="text" />
-    </div> <br />
-    
-    <div class="fieldbox">
-        <label class="Labels"> ID number:  </label>
-        <input class="Field" id="IDnumber" type="text" />
-   </div> <br />
-    <div>
-        <label class="Labels"> Birth Date:  </label>
-        <input class="Field" id="dob" type="date" />
-    </div>
-    <br />
-    <div class="fieldbox">
-        <label class="Labels"> Picture:  </label>
-            <input  class="Field" id="Profile" type="file" />
-    </div>
-   
-    <br />
-    <input id="Register" value="Add" type="button" />
-    <br />
-  </div> 
 
-</>
+    <h2>New Employee form</h2>
+
+    <div class="addform">
+        Enter the required information<hr />
+        <br />
+        <div class="fieldbox">
+            <label class="Labels">Employee Name:</label>
+            <input class="Field" id="EmployeeName" type="text" />
+        </div> <br />
+
+        <div class="fieldbox">
+            <label class="Labels"> ID number:  </label>
+            <input class="Field" id="IDnumber" type="text" />
+        </div> <br />
+        <div>
+            <label class="Labels"> Birth Date:  </label>
+            <input class="Field" id="dob" type="date" />
+        </div>
+        <br />
+        <div class="fieldbox">
+            <label class="Labels"> Picture:  </label>
+            <input class="Field" id="Profile" type="file" />
+        </div>
+
+        <br />
+        <input id="Register" value="Add" type="button" />
+        <br />
+    </div>
+</div>
     }

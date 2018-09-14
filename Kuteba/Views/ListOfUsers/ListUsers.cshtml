@@ -7,56 +7,58 @@
 }
 
 @section initalCSS{
-    
+    <link type="text/css" rel="stylesheet" href="~/Contents/css/AdminForm.css" />
 }
 @section BodyPart{
+<div id="container2">
     @*<form class="form" method="post" action="#">  *@
-        <table>
-            <thead>
-                <tr>
-                    <th>User Name</th>
-                    <th>Employee ID</th>
-                    <th>####</th>
-                    
-                </tr>
-            </thead>
-            <tbody class="table">
-                @{
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Employee ID</th>
+                <th>####</th>
+
+            </tr>
+        </thead>
+        <tbody class="table">
+            @{
                     foreach (User v in Model)
                     {
-                    <tr>
-                        <td>
-                            @*<input type="hidden" name="UserId" value="@v.UserName" />*@
-                           <label  > @v.UserName </label> 
-                        </td>
-                        <td>
-                            @v.employe.EmployeeId
-                        </td>
-                        <td>
-                            @*<input type="hidden" name="status" value="@v.isPendding.ToString()" />*@
-                          <label>@v.isPendding</label>  
-                        </td>
-                        <td>
-                            <form action="@Url.Action("UpdatePending","UserAdmin")" method="post">
-                                <input type="hidden" name="status" value="@v.isPendding.ToString()" />
-                                <input type="hidden" name="UserId" value="@v.UserName" />
-                                @{if (v.isPendding)
-                                    {
-                                        
-                                        <input type="submit" value="Approve" />
-                                    }
-                                    else
-                                    {
-                                        
-                                        <input type="submit" value="Disable" />
-                                    }
+                <tr>
+                    <td>
+                        @*<input type="hidden" name="UserId" value="@v.UserName" />*@
+                        <label> @v.UserName </label>
+                    </td>
+                    <td>
+                        @v.employe.EmployeeId
+                    </td>
+                    <td>
+                        @*<input type="hidden" name="status" value="@v.isPendding.ToString()" />*@
+                        <label>@v.isPendding</label>
+                    </td>
+                    <td>
+                        <form action="@Url.Action("UpdatePending","UserAdmin")" method="post">
+                            <input type="hidden" name="status" value="@v.isPendding.ToString()" />
+                            <input type="hidden" name="UserId" value="@v.UserName" />
+                            @{if (v.isPendding)
+                                {
+
+                                    <input type="submit" value="Approve" />
                                 }
-                            </form>
-                        </td>
-                    </tr>
-                }
-                }
-            </tbody>
-        </table>
-    }
+                                else
+                                {
+
+                                    <input type="submit" value="Disable" />
+                                }
+                            }
+                        </form>
+                    </td>
+                </tr>
+                                }
+            }
+        </tbody>
+    </table>
+    </div>
+}
 
