@@ -32,5 +32,16 @@ namespace Database
         public DbSet<GroupPrevilage> GroupPrevilages { get; set; }
         public DbSet<See> See { get; set; }
         public DbSet<EmployeeLoan> EmployeeLoan { get; set; }
+
+
+
+
+        public DbSet<Interest> Interest { get; set; }
+        public DbSet<Loan> Loan { get; set; }
+        public DbSet<Payments> Payments { get; set; }
+        public DbSet<EmployeeTakesLoan> EmployeeTakesLoan { get; set; }
+        public DbSet<LoanForPayments> LoanForPayments { get; set; }
+
+
     }
 }

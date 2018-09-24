@@ -25,6 +25,7 @@ namespace Kuteba.Controllers
         }
         public ActionResult List()
         {
+
             return View();
         }
         [HttpGet]

@@ -20,8 +20,6 @@ namespace Kuteba.Controllers
         // GET: ListOfUsers
         public ActionResult ListUsers()
         {
-            
-            
             return View(listUsers.ListUsers());
         }
     }
