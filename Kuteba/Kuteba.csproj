@@ -222,6 +222,7 @@
     <Content Include="Views\ListOfUsers\ListUsers.cshtml" />
     <Content Include="Views\SetSalary\Index.cshtml" />
     <Content Include="Views\EmployeesList\Index.cshtml" />
+    <Content Include="Views\Login\SignupSummary.cshtml" />
     <Content Include="Views\Shared\_LogedInAdminLayout.cshtml" />
     <Content Include="Views\LoanAdmin\CreateLoan.cshtml" />
     <Content Include="Views\LoanAdmin\ListEmployeeLoan.cshtml" />

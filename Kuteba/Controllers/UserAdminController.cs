@@ -22,8 +22,9 @@ namespace Kuteba.Controllers
         // GET: UserAdmin
         public ActionResult UpdatePending(string UserId,bool status)
         {
-            pendingServices.UpdatePendingStatus(UserId, status);
-            return Redirect(Url.Action("ListUsers", "ListOfUsers"));
+            pendingServices.pendingController(UserId, status);
+            kdb.SaveChanges();
+            return View();
         }
     }
 }

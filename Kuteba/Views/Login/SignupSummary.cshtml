@@ -1,0 +1,35 @@
+﻿@using Domain
+@using BusinessLogic
+@using ViewModels
+
+@{
+    ViewBag.Title = "SignupSummary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    Layout = null;
+ }
+
+@{ViewModels.UserSignUpViewModel uvm = new UserSignUpViewModel(); }
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="width = 50%, height = 50%"/>
+    </head>
+    <body>
+        <div class="view">
+        <h3>SignupSummary</h3>
+        <p>Here is the information you have entered. Please review and verify your entries.</p>
+        <ul>
+            <li>መታወቅያ ቁጥር:<t/> @uvm.employeeID</li>
+            <li>ሚስጥር-ቁጥር:<t/> @uvm.password</li>
+            <li>ስልክ-ቁጥር:<t/> @uvm.phoneNum</li>
+            <li>ኢ-ሜል:<t/> @uvm.email</li>
+            <li>የትውልድ-ቀን:<t/> @uvm.birthDate</li>
+            <li>ቦንድ-መጠን:<t/> @uvm.bond</li>
+            <li>የቁጠባ-መጠን:<t/> @uvm.install</li>
+        </ul>
+        </div>
+    </body>
+</html>
+
